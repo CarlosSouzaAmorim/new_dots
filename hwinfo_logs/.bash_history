@@ -268,3 +268,39 @@ exit
 cd ~/_projects/new_dots/hwinfo_logs/
 cp ~/.bash_history .
 exit
+cd ~/_projects/new_dots/hwinfo_logs/
+cp ~/.bash_history .
+cp /var/log/Xorg.0.log var_log_Xorg_4.log
+cat /var/log/Xorg.0.log | grep EE >var_log_Xorg_EE_4.log
+cat /var/log/Xorg.0.log | grep EE
+sudo dmesg >dmesg4.log
+sudo dmesg | grep i915 > dmesg_i915_4.log
+lspci
+lsmod | grep i915
+lspci | grep gga
+lspci | grep vga
+lspci | grep VGA
+lspci -k | grep VGA
+lspci -l | grep VGA
+lspci -lv | grep VGA
+lspci -v | grep VGA
+lspci -vk | grep VGA
+lspci -k
+ls
+git add .
+git commit -m "Second try logs2"
+git push origin main
+exit
+lsmod | grep i915
+sudo dmesg | grep i915 
+cat /var/log/Xorg.0.log | grep EE
+sudo pacman -S
+sudo pacman -Sy
+sudo pacman -S mesa
+sudo pacman -S mesa-dri
+sudo pacman -S mesa-vdpau
+sudo pacman -S libva-intel-driver
+ls /usr/lib/dri
+ls /usr/lib/dri | grep i915
+cd ~/_projects/new_dots/hwinfo_logs/
+exit
