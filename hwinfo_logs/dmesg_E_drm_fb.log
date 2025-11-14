@@ -1,0 +1,16 @@
+[    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+[    0.010446] ACPI: Reserving FACP table memory at [mem 0xcffaaafb-0xcffaabee]
+[    0.579226] system 00:00: [mem 0xf8000000-0xfbffffff] has been reserved
+[    0.694881] ACPI: bus type drm_connector registered
+[    0.772109] simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+[    0.772112] [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+[    0.775887] fbcon: Deferring console take-over
+[    0.775891] simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+[    2.163181] i915 0000:00:02.0: [drm] Found g45 (device ID 2e12) integrated display version 4.00 stepping N/A
+[    2.185012] i915 0000:00:02.0: [drm] Registered 2 planes with drm panic
+[    2.185017] [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1
+[    2.274145] fbcon: i915drmfb (fb0) is primary device
+[    2.274148] fbcon: Deferring console take-over
+[    2.274150] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[   16.293392] systemd[1]: Load Kernel Module drm was skipped because of an unmet condition check (ConditionKernelModuleLoaded=!drm).
+[   84.772988] fbcon: Taking over console
