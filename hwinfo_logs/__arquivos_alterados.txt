@@ -1,0 +1,8 @@
+
+
+/boot/limine.conf
+
+~/.config/hypr/monitors.conf
+
+/etc/X11/xorg.conf.d/
+/home/carlos/.config/hypr/monitors.conf

@@ -1,0 +1,255 @@
+Nov 14 07:10:19 omarchy sddm[696]: Reading from "/usr/local/share/wayland-sessions/hyprland-uwsm.desktop"
+Nov 14 07:10:19 omarchy sddm[696]: Reading from "/usr/share/wayland-sessions/hyprland-uwsm.desktop"
+Nov 14 07:10:19 omarchy sddm[696]: Session "/usr/share/wayland-sessions/hyprland-uwsm.desktop" selected, command: "uwsm start -- hyprland.desktop" for VT 1
+Nov 14 07:10:20 omarchy sddm-helper[985]: Starting Wayland user session: "/usr/share/sddm/scripts/wayland-session" "uwsm start -- hyprland.desktop"
+Nov 14 07:10:20 omarchy uwsm[1006]: Selected compositor ID: hyprland.desktop
+                                              Command Line: Hyprland
+                                          Plugin/binary ID: hyprland
+                                     Initial Desktop Names: Hyprland
+                                                      Name: Hyprland
+Nov 14 07:10:20 omarchy uwsm[1006]: Created unit subdir "wayland-wm-env@hyprland.desktop.service.d/" (run).
+Nov 14 07:10:20 omarchy uwsm[1006]: Created "wayland-wm-env@hyprland.desktop.service.d/50_custom.conf" (run).
+Nov 14 07:10:20 omarchy uwsm[1006]: Created unit subdir "wayland-wm@hyprland.desktop.service.d/" (run).
+Nov 14 07:10:20 omarchy uwsm[1006]: Created "wayland-wm@hyprland.desktop.service.d/50_custom.conf" (run).
+Nov 14 07:10:20 omarchy uwsm[1006]: Starting hyprland.desktop and waiting while it is running...
+Nov 14 07:10:21 omarchy systemd[989]: Starting Environment preloader for Hyprland, An intelligent dynamic tiling Wayland compositor...
+Nov 14 07:10:21 omarchy uwsm_env-preloader[1026]: Preparing environment for Hyprland...
+Nov 14 07:10:21 omarchy uwsm_env-preloader[1026]: Loading plugin "/usr/share/uwsm/plugins/hyprland.sh".
+Nov 14 07:10:21 omarchy uwsm_env-preloader[1026]: Applying quirks for "hyprland".
+Nov 14 07:10:21 omarchy systemd[989]: Finished Environment preloader for Hyprland, An intelligent dynamic tiling Wayland compositor.
+Nov 14 07:10:21 omarchy systemd[989]: Reached target Preparation for session of hyprland.desktop Wayland compositor.
+Nov 14 07:10:21 omarchy systemd[989]: Starting Main service for Hyprland, An intelligent dynamic tiling Wayland compositor...
+Nov 14 07:10:21 omarchy uwsm_hyprland.desktop[1074]: Starting: Hyprland...
+Nov 14 07:10:21 omarchy uwsm_waitenv[1073]:   HYPRLAND_INSTANCE_SIGNATURE, WAYLAND_DISPLAY
+Nov 14 07:10:21 omarchy uwsm_hyprland.desktop[1077]: Expecting variables to appear in activation environment:
+Nov 14 07:10:21 omarchy uwsm_hyprland.desktop[1077]:   WAYLAND_DISPLAY, HYPRLAND_INSTANCE_SIGNATURE
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: Welcome to Hyprland!
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Instance Signature: 967c3c7404d4fa00234e29c70df3e263386d2597_1763115022_36603255
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Runtime directory: /run/user/1000/hypr/967c3c7404d4fa00234e29c70df3e263386d2597_1763115022_36603255
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Hyprland PID: 1074
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] ===== SYSTEM INFO: =====
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] System name: Linux
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Node name: omarchy
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Release: 6.17.7-arch1-1
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Version: #1 SMP PREEMPT_DYNAMIC Sun, 02 Nov 2025 17:27:22 +0000
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] GPU information:
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: 00:02.0 VGA compatible controller [0300]: Intel Corporation 4 Series Chipset Integrated Graphics Controller [8086:2e12] (rev 03) (prog-if 00 [VGA controller])
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: 00:02.1 Display controller [0380]: Intel Corporation 4 Series Chipset Integrated Graphics Controller [8086:2e13] (rev 03)
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] os-release:
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: NAME="Arch Linux"
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: PRETTY_NAME="Arch Linux"
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: ID=arch
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: BUILD_ID=rolling
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: ANSI_COLOR="38;2;23;147;209"
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: HOME_URL="https://archlinux.org/"
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: DOCUMENTATION_URL="https://wiki.archlinux.org/"
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: SUPPORT_URL="https://bbs.archlinux.org/"
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: BUG_REPORT_URL="https://gitlab.archlinux.org/groups/archlinux/-/issues"
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: LOGO=archlinux-logo
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] ========================
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [INFO] If you are crashing, or encounter any bugs, please consult https://wiki.hypr.land/Crashes-and-Bugs/
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: 
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG]
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: Current splash: "Hello everyone this is YOUR daily dose of ‘read the wiki’" - Vaxry
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Old rlimit: soft -> 1024, hard -> 524288
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] New rlimit: soft -> 524288, hard -> 524288
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Creating the EventLoopManager!
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Creating the HookSystem!
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Creating the KeybindManager!
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Creating the AnimationManager!
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Creating the DynamicPermissionManager!
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Creating the ConfigManager!
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Using config: /home/carlos/.config/hypr/hyprland.conf
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [INFO] !!!!HEY YOU, YES YOU!!!!: further logs to stdout / logfile are disabled by default. BEFORE SENDING THIS LOG, ENABLE THEM. Use debug:disable_logs = false to do so: https://wiki.hypr.land/Configuring/Variables/#debug
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Creating the CHyprError!
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Creating the LayoutManager!
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Creating the TokenManager!
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] [hookSystem] New hook event registered: preConfigReload
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] Using config: /home/carlos/.config/hypr/hyprland.conf
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] CWindowRule: direct prop rule found, rewritten nofocus -> prop nofocus
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] CWindowRule: direct prop rule found, rewritten noscreenshare -> prop noscreenshare
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] CWindowRule: direct prop rule found, rewritten noscreenshare -> prop noscreenshare
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] CWindowRule: direct prop rule found, rewritten nofocus -> prop nofocus
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] CWindowRule: direct prop rule found, rewritten rounding 8 -> prop rounding 8
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] CWindowRule: direct prop rule found, rewritten nodim -> prop nodim
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] CWindowRule: direct prop rule found, rewritten scrolltouchpad 1.5 -> prop scrolltouchpad 1.5
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1074]: [LOG] CWindowRule: direct prop rule found, rewritten scrolltouchpad 0.2 -> prop scrolltouchpad 0.2
+Nov 14 07:10:22 omarchy uwsm_hyprland.desktop[1077]: All expected variables appeared in activation environment.
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]: Exporting variables to systemd user manager:
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   DISPLAY (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   ELECTRON_OZONE_PLATFORM_HINT (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   GDK_BACKEND (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   GUM_CONFIRM_PROMPT_FOREGROUND (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   GUM_CONFIRM_SELECTED_BACKGROUND (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   GUM_CONFIRM_SELECTED_FOREGROUND (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   GUM_CONFIRM_UNSELECTED_BACKGROUND (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   GUM_CONFIRM_UNSELECTED_FOREGROUND (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   HYPRCURSOR_SIZE (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   HYPRLAND_CMD (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   HYPRLAND_INSTANCE_SIGNATURE (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   MANAGERPIDFDID (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   MOZ_ENABLE_WAYLAND (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   OZONE_PLATFORM (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   QT_QPA_PLATFORM (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   QT_STYLE_OVERRIDE (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   SDL_VIDEODRIVER (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   SHLVL (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   WAYLAND_DISPLAY (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   XCOMPOSEFILE (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   XCURSOR_SIZE (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   _JAVA_AWT_WM_NONREPARENTING (already set)
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]: Marking variables for later cleanup from systemd user manager on stop:
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   ELECTRON_OZONE_PLATFORM_HINT
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   GDK_BACKEND
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   GUM_CONFIRM_PROMPT_FOREGROUND
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   GUM_CONFIRM_SELECTED_BACKGROUND
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   GUM_CONFIRM_SELECTED_FOREGROUND
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   GUM_CONFIRM_UNSELECTED_BACKGROUND
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   GUM_CONFIRM_UNSELECTED_FOREGROUND
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   HYPRCURSOR_SIZE
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   HYPRLAND_CMD
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   HYPRLAND_INSTANCE_SIGNATURE
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   MANAGERPIDFDID
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   MOZ_ENABLE_WAYLAND
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   OZONE_PLATFORM
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   QT_QPA_PLATFORM
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   QT_STYLE_OVERRIDE
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   SDL_VIDEODRIVER
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   SHLVL
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   XCOMPOSEFILE
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]:   _JAVA_AWT_WM_NONREPARENTING
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1077]: Autoready: Declaring unit for hyprland.desktop ready and restricting notification access.
+Nov 14 07:10:23 omarchy systemd[989]: Started Main service for Hyprland, An intelligent dynamic tiling Wayland compositor.
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1152]: Refusing to try glamor on llvmpipe
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1152]: XWAYLAND: Disabling GLAMOR support
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1152]: EGL setup failed, disabling glamor
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1152]: Failed to initialize glamor, falling back to sw
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86OK
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86GoTo
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86VendorLogo
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectProgramGuide
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectProgramGuide
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectHome
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaLanguageMenu
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaTitleMenu
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86AudioChannelMode
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectPC
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectTV
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectCable
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectVCR
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectVCRPlus
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectSatellite
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectCD
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectTape
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectRadio
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectTuner
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaPlayer
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectTeletext
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaSelectAuxiliary
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86MediaPlaySlow
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86NumberEntryMode
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86RefreshRateToggle
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86Accessibility
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: > Warning:          Could not resolve keysym XF86DoNotDisturb
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1165]: Errors from xkbcomp are not fatal to the X server
+Nov 14 07:10:23 omarchy systemd[989]: Reached target Session of hyprland.desktop Wayland compositor.
+Nov 14 07:10:23 omarchy systemd[989]: Reached target XDG Autostart for session of hyprland.desktop Wayland compositor.
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1171]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1171]: > Warning:          Unsupported maximum keycode 708, clipping.
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1171]: >                   X11 cannot support keycodes above 255.
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1171]: > Warning:          Virtual modifier Hyper multiply defined
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1171]: >                   Using 0, ignoring 0
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1171]: > Warning:          Virtual modifier ScrollLock multiply defined
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1171]: >                   Using 0, ignoring 0
+Nov 14 07:10:23 omarchy uwsm_hyprland.desktop[1171]: Errors from xkbcomp are not fatal to the X server
+Nov 14 07:10:25 omarchy uwsm_app-daemon[1201]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-elephant-9e85696f.scope --description=elephant --quiet --collect --same-dir -- elephant
+Nov 14 07:10:25 omarchy uwsm_app-daemon[1201]: received: app -- hypridle
+Nov 14 07:10:25 omarchy uwsm_app-daemon[1201]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-hypridle-1562cd7b.scope --description=hypridle --quiet --collect --same-dir -- hypridle
+Nov 14 07:10:25 omarchy uwsm_app-daemon[1201]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-fcitx5-529e8e46.scope --description=fcitx5 --quiet --collect --same-dir -- fcitx5
+Nov 14 07:10:25 omarchy systemd[989]: Started hypridle.
+Nov 14 07:10:25 omarchy uwsm_app-daemon[1201]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-swaybg-8d3b1c5a.scope --description=swaybg --quiet --collect --same-dir -- swaybg -i /home/carlos/.config/omarchy/current/background -m fill
+Nov 14 07:10:25 omarchy uwsm_app-daemon[1201]: sent: exec systemd-run --user --scope --slice=app-graphical.slice '--unit=app-Hyprland-swayosd\x2dserver-c591299e.scope' --description=swayosd-server --quiet --collect --same-dir -- swayosd-server
+Nov 14 07:10:25 omarchy uwsm_app-daemon[1201]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-mako-98935536.scope --description=mako --quiet --collect --same-dir -- mako
+Nov 14 07:10:25 omarchy uwsm_app-daemon[1201]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-walker-f377407d.scope --description=walker --quiet --collect --same-dir -- walker --gapplication-service
+Nov 14 07:10:25 omarchy uwsm_app-daemon[1201]: sent: exec systemd-run --user --scope --slice=app-graphical.slice --unit=app-Hyprland-waybar-e1b282ef.scope --description=waybar --quiet --collect --same-dir -- waybar
+Nov 14 07:10:26 omarchy systemd[989]: Starting Portal service (Hyprland implementation)...
+Nov 14 07:10:26 omarchy systemd[989]: Started Portal service (Hyprland implementation).
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG] Initializing xdph...
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG] XDG_CURRENT_DESKTOP set to Hyprland
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG] Gathering exported interfaces
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wl_seat (ver 9)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wl_data_device_manager (ver 3)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wl_compositor (ver 6)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wl_subcompositor (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wl_shm (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_viewporter (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_tearing_control_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_fractional_scale_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zxdg_output_manager_v1 (ver 3)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_cursor_shape_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwp_idle_inhibit_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwp_relative_pointer_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zxdg_decoration_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_alpha_modifier_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwlr_gamma_control_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: ext_foreign_toplevel_list_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwp_pointer_gestures_v1 (ver 3)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwlr_foreign_toplevel_manager_v1 (ver 3)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG] [toplevel] (activate) locks: 1
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwp_keyboard_shortcuts_inhibit_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwp_text_input_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwp_text_input_manager_v3 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwp_pointer_constraints_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwlr_output_power_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: xdg_activation_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: ext_idle_notifier_v1 (ver 2)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: hyprland_lock_notifier_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: ext_session_lock_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwp_input_method_manager_v2 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwp_virtual_keyboard_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwlr_virtual_pointer_manager_v1 (ver 2)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwlr_output_manager_v1 (ver 4)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: org_kde_kwin_server_decoration_manager (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: hyprland_focus_grab_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwp_tablet_manager_v2 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwlr_layer_shell_v1 (ver 5)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_presentation (ver 2)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: xdg_wm_base (ver 7)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwlr_data_control_manager_v1 (ver 2)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwp_primary_selection_device_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: xwayland_shell_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwlr_screencopy_manager_v1 (ver 3)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG] [pipewire] connected
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG] [screencopy] init successful
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: hyprland_toplevel_export_manager_v1 (ver 2)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: hyprland_toplevel_mapping_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG] [toplevel mapping] registered manager
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: hyprland_global_shortcuts_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG] [globalshortcuts] registered
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: xdg_wm_dialog_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_single_pixel_buffer_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_security_context_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: hyprland_ctm_control_manager_v1 (ver 2)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: hyprland_surface_manager_v1 (ver 2)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_content_type_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: xdg_toplevel_tag_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: xdg_system_bell_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: ext_workspace_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: ext_data_control_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_pointer_warp_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_fifo_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_commit_timing_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_color_manager_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wp_drm_lease_device_v1 (ver 1)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wl_drm (ver 2)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: zwp_linux_dmabuf_v1 (ver 5)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG]  | Got interface: wl_output (ver 4)
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG] [core] dmabufFeedbackMainDevice
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [ERR] [core] Couldn't find a render node
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [ERR] [core] Couldn't find a render node
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG] Found output name Unknown-1
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG] [toplevel] Activated, bound to 1, toplevels: 0
+Nov 14 07:10:26 omarchy xdg-desktop-portal-hyprland[1378]: [LOG] [screencopy] Registered for toplevel export
+Nov 14 07:10:39 omarchy uwsm_app-daemon[1201]: sent: exec systemd-run --user --scope --slice=app-graphical.slice '--unit=app-Hyprland-xdg\x2dterminal\x2dexec-8ea78763.scope' --description=xdg-terminal-exec --quiet --collect --same-dir -- xdg-terminal-exec --working-directory=/home/carlos

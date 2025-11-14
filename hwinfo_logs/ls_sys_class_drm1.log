@@ -1,0 +1,6 @@
+total 0
+drwxr-xr-x  2 root root    0 Nov 14 07:29 .
+drwxr-xr-x 68 root root    0 Nov 14 07:29 ..
+lrwxrwxrwx  1 root root    0 Nov 14 07:29 card0 -> ../../devices/platform/simple-framebuffer.0/drm/card0
+lrwxrwxrwx  1 root root    0 Nov 14 07:29 card0-Unknown-1 -> ../../devices/platform/simple-framebuffer.0/drm/card0/card0-Unknown-1
+-r--r--r--  1 root root 4096 Nov 14 07:29 version

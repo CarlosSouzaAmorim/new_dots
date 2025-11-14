@@ -358,3 +358,100 @@ sudo dmesg >dmesg6.log
 sudo dmesg | grep i915 > dmesg_i915_6.log
 cp ~/.bash_history .
 exit
+cd ~/_projects/new_dots/hwinfo_logs/
+cp ~/.bash_history .
+git add .
+git commit -m "Second try logs6"
+git push origin main
+exit
+cd ~/_projects/new_dots/hwinfo_logs/
+sudo dmesg | grep i915
+cat /var/log/Xorg.0.log | grep EE
+cat /var/log/Xorg.0.log | grep -iE "(EE|i915|intel)"
+ls  ~/.config/
+ls  ~/.config/hypr/
+nano  ~/.config/hypr/monitors.conf
+cat /var/log/Xorg.0.log | grep -iE "(EE|i915|intel)"
+nano  ~/.config/hypr/monitors.conf
+exit
+cat /var/log/Xorg.0.log | grep -iE "(EE|i915|intel)"
+cat /var/log/Xorg.0.log | grep -iE "(EE)"
+cat /var/log/Xorg.0.log | grep -iE "(i915|intel)"
+nano  ~/.config/hypr/monitors.conf
+exit
+cd ~/_projects/new_dots/hwinfo_logs/
+ls
+ls /etc/X11/xorg.conf.d/
+cd /etc/X11/xorg.conf.d/
+ls
+mv 10-dri.conf 10-dri.conf.old1 
+sudo mv 10-dri.conf 10-dri.conf.old1 
+sudo mv 20-intel.conf 20-intel.conf.old1
+sudo mv 30-i915.conf 30-i915.conf.old1
+ls
+exit
+nano  ~/.config/hypr/monitors.conf
+exit
+cat ~/.bash_history | grep hypr
+nano ~/.bashrc 
+cat ~/.bash_history | grep hypr
+nano  ~/.config/hypr/monitors.conf
+exit
+hy                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+hyhy
+hy
+hyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+hy
+exit
+echo $XDG_SESSION_TYPE
+cd /etc/X11/xorg.conf.d/
+sudo nano 40-monitor.conf
+ls
+sudo nano 10-dri.conf.old1 
+sudo nano 20-intel.conf.old1 
+sudo mv 20-intel.conf.old1 20-intel.conf
+ls
+sudo nano 30-i915.conf.old1 
+sudo nano 20-intel.conf
+nano  ~/.config/hypr/monitors.conf
+exit
+cd /etc/X11/xorg.conf.d/
+ls
+mv 20-intel.conf 20-intel.conf.old1
+sudo mv 20-intel.conf 20-intel.conf.old1
+sudo mv 40-monitor.conf 40-monitor.conf.old1
+ls
+exit
+journalctl -b
+journalctl -b | grep -i hypr
+ls
+echo $XDG_SESSION_TYPE
+cd ~/_projects/new_dots/hwinfo_logs/
+journalctl -b | grep -i hypr > journalctl_hypr_1.log
+ls
+nano __arquivos_alterados.txt
+echo $XDG_SESSION_TYPE > echo_XDG_SESSION_TYPE.log
+echo /etc/X11/xorg.conf.d/ >> __arquivos_alterados.txt 
+cat __arquivos_alterados.txt 
+echo ~/.config/hypr/monitors.conf >> __arquivos_alterados.txt 
+cat ~/.bash_history | grep lim
+echo /
+nano __arquivos_alterados.txt
+kate /boot/limine.conf
+journalctl -b | grep -i HDMI
+journalctl -b | grep -i failed
+journalctl -b | grep -i connec
+ls /sys/class/drm/
+ls /sys/class/drm/ > ls_sys_class_drm1.log
+ls
+ls /sys/class/drm/
+sudo ddcutil detect
+exit
+sudo modetest -M i915 -c
+lspci
+pacman -Ss i965
+
+cd ~/_projects/new_dots/hwinfo_logs/
+pacman -Ss i915 > pacman_Ss_i915.log
+sudo pacman -Sy mesa-legacy-g45
+exit
