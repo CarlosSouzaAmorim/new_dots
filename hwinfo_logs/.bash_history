@@ -527,3 +527,17 @@ sudo nano /etc/modprobe.d/blacklist-fb.conf
 cp /etc/modprobe.d/blacklist-fb.conf .
 sudo mkinitcpio -P
 exit
+sudo dmesg | grep -E "drm|fb"
+cd ~/_projects/new_dots/hwinfo_logs/
+sudo dmesg | grep -E "drm|fb" > dmesg_E_drm_fb.log
+sudo nano /boot/limine.conf
+ls /boot
+ls /boot/8ef18ca2d3144073a8da6bc0533efabf/
+ls /boot/8ef18ca2d3144073a8da6bc0533efabf/linux/
+~/dot_logs.sh 12
+ls -l /sys/class/drm
+ls -l /dev/fb*
+sudo nano /boot/limine.conf
+exit
+sudo nano /boot/limine.conf
+exit

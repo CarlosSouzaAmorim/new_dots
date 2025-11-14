@@ -1,0 +1,9 @@
+total 0
+drwxr-xr-x  2 root root    0 Nov 14 09:11 .
+drwxr-xr-x 68 root root    0 Nov 14 09:11 ..
+lrwxrwxrwx  1 root root    0 Nov 14 09:11 card0 -> ../../devices/pci0000:00/0000:00:02.0/drm/card0
+lrwxrwxrwx  1 root root    0 Nov 14 09:11 card0-DP-1 -> ../../devices/pci0000:00/0000:00:02.0/drm/card0/card0-DP-1
+lrwxrwxrwx  1 root root    0 Nov 14 09:11 card0-HDMI-A-1 -> ../../devices/pci0000:00/0000:00:02.0/drm/card0/card0-HDMI-A-1
+lrwxrwxrwx  1 root root    0 Nov 14 09:11 card0-VGA-1 -> ../../devices/pci0000:00/0000:00:02.0/drm/card0/card0-VGA-1
+lrwxrwxrwx  1 root root    0 Nov 14 09:11 renderD128 -> ../../devices/pci0000:00/0000:00:02.0/drm/renderD128
+-r--r--r--  1 root root 4096 Nov 14 09:11 version

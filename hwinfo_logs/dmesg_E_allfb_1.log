@@ -1,0 +1,4 @@
+[    0.000000] Command line: video=efifb:off video=simpledrm:off initcall_blacklist=simpledrm_platform_driver_init cryptdevice=PARTUUID=265cc117-02:root root=/dev/mapper/root zswap.enabled=0 rootflags=subvol=@ rw rootfstype=btrfs
+[    0.125096] Kernel command line: video=efifb:off video=simpledrm:off initcall_blacklist=simpledrm_platform_driver_init cryptdevice=PARTUUID=265cc117-02:root root=/dev/mapper/root zswap.enabled=0 rootflags=subvol=@ rw rootfstype=btrfs
+[    0.125152] blacklisting initcall simpledrm_platform_driver_init
+[    0.690661] initcall simpledrm_platform_driver_init blacklisted
