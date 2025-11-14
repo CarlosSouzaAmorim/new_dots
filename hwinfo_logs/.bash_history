@@ -243,3 +243,25 @@ exit
 sudo nano /etc/X11/xorg.conf.d/20-intel.conf 
 sudo nano /boot/limine.conf
 exit
+ls
+cd _projects/
+ls
+cd ne
+ls
+cd hwinfo_logs/
+ls
+cp ~/.bash_history .
+cp /boot/limine.conf .
+cp /etc/X11/xorg.conf.d/20-intel.conf .
+cd ~/_projects/new_dots/hwinfo_logs/
+sudo dmesg | grep i915 > dmesg_i915_2.log
+cat dmesg_i915_2.log 
+sudo dmesg | grep g45
+sudo dmesg >dmesg3.log
+cat /var/log/Xorg.0.log | grep EE >var_log_Xorg_EE_3.log
+cp /var/log/Xorg.0.log var_log_Xorg_3.log
+ls
+git add .
+git commit -m "Second try logs"
+git push origin main
+exit
