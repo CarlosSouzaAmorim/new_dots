@@ -1,0 +1,4 @@
+00:02.0 VGA compatible controller: Intel Corporation 4 Series Chipset Integrated Graphics Controller (rev 03)
+	Subsystem: Lenovo ThinkCentre M6258
+	Kernel driver in use: i915
+	Kernel modules: i915

@@ -1,0 +1,1248 @@
+[    0.000000] Linux version 6.17.7-arch1-1 (linux@archlinux) (gcc (GCC) 15.2.1 20250813, GNU ld (GNU Binutils) 2.45.0) #1 SMP PREEMPT_DYNAMIC Sun, 02 Nov 2025 17:27:22 +0000
+[    0.000000] Command line: quiet splash cryptdevice=PARTUUID=265cc117-02:root root=/dev/mapper/root zswap.enabled=0 rootflags=subvol=@ rw rootfstype=btrfs
+[    0.000000] Disabled fast string operations
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009cfff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009d000-0x000000000009ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000ce000-0x00000000000cffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000cff8ffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000cff90000-0x00000000cffaafff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x00000000cffab000-0x00000000cffcefff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x00000000cffcf000-0x00000000dfffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec0ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000027effffff] usable
+[    0.000000] BIOS-e820: [mem 0x000000027f000000-0x000000027fffffff] reserved
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] APIC: Static calls initialized
+[    0.000000] SMBIOS 2.5 present.
+[    0.000000] DMI: LENOVO 7483A7P/LENOVO, BIOS 5CKT77AUS 05/07/2012
+[    0.000000] DMI: Memory slots populated: 4/4
+[    0.000000] tsc: Fast TSC calibration using PIT
+[    0.000000] tsc: Detected 2992.380 MHz processor
+[    0.000871] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.000875] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.000882] last_pfn = 0x27f000 max_arch_pfn = 0x400000000
+[    0.000895] total RAM covered: 11520M
+[    0.001180] Found optimal setting for mtrr clean up
+[    0.001181]  gran_size: 64K 	chunk_size: 64K 	num_reg: 5  	lose cover RAM: 0G
+[    0.001186] MTRR map: 7 entries (5 fixed + 2 variable; max 19), built from 7 variable MTRRs
+[    0.001189] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[    0.003404] e820: update [mem 0xd0000000-0xffffffff] usable ==> reserved
+[    0.003412] last_pfn = 0xcffab max_arch_pfn = 0x400000000
+[    0.009692] found SMP MP-table at [mem 0x000f6b20-0x000f6b2f]
+[    0.010148] RAMDISK: [mem 0x7e700000-0x7ffddfff]
+[    0.010345] ACPI: Early table checksum verification disabled
+[    0.010350] ACPI: RSDP 0x00000000000F68F0 000024 (v02 LENOVO)
+[    0.010355] ACPI: XSDT 0x00000000CFF9D257 0000B4 (v01 LENOVO TC-5C    0000014D  LTP 00000000)
+[    0.010361] ACPI: TCPA 0x00000000CFFAAAC9 000032 (v02 LENOVO TC-5C    0000014D PTL  00000000)
+[    0.010365] ACPI: FACP 0x00000000CFFAAAFB 0000F4 (v03 LENOVO TC-5C    0000014D PTL  00000002)
+[    0.010370] ACPI: DSDT 0x00000000CFFA132D 009718 (v01 LENOVO TC-5C    0000014D MSFT 0100000E)
+[    0.010374] ACPI: FACS 0x00000000CFFCEFC0 000040
+[    0.010377] ACPI: FACS 0x00000000CFFCEFC0 000040
+[    0.010379] ACPI: DMAR 0x00000000CFFAABEF 000120 (v01 LENOVO TC-5C    0000014D LOHR 00000001)
+[    0.010383] ACPI: SLIC 0x00000000CFFAAD0F 000176 (v01 LENOVO TC-5C    0000014D  LTP 00000000)
+[    0.010386] ACPI: MCFG 0x00000000CFFAAE85 00003C (v01 LENOVO TC-5C    0000014D  LTP 00000000)
+[    0.010390] ACPI: HPET 0x00000000CFFAAEC1 000038 (v01 LENOVO TC-5C    0000014D  LTP 00000001)
+[    0.010393] ACPI: APIC 0x00000000CFFAAEF9 000068 (v01 LENOVO TC-5C    0000014D  LTP 00000000)
+[    0.010396] ACPI: BOOT 0x00000000CFFAAF61 000028 (v01 LENOVO TC-5C    0000014D  LTP 00000001)
+[    0.010400] ACPI: ASF! 0x00000000CFFAAF89 000077 (v32 LENOVO TC-5C    0000014D PTL  00000001)
+[    0.010403] ACPI: SSDT 0x00000000CFF9EB57 00025F (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.010407] ACPI: SSDT 0x00000000CFF9EAB1 0000A6 (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.010410] ACPI: SSDT 0x00000000CFF9EA0B 0000A6 (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.010413] ACPI: SSDT 0x00000000CFF9E965 0000A6 (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.010417] ACPI: SSDT 0x00000000CFF9E8BF 0000A6 (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.010420] ACPI: SSDT 0x00000000CFF9E819 0000A6 (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.010424] ACPI: SSDT 0x00000000CFF9E773 0000A6 (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.010427] ACPI: SSDT 0x00000000CFF9E6CD 0000A6 (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.010430] ACPI: SSDT 0x00000000CFF9D30B 0013C2 (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.010433] ACPI: Reserving TCPA table memory at [mem 0xcffaaac9-0xcffaaafa]
+[    0.010434] ACPI: Reserving FACP table memory at [mem 0xcffaaafb-0xcffaabee]
+[    0.010436] ACPI: Reserving DSDT table memory at [mem 0xcffa132d-0xcffaaa44]
+[    0.010437] ACPI: Reserving FACS table memory at [mem 0xcffcefc0-0xcffcefff]
+[    0.010438] ACPI: Reserving FACS table memory at [mem 0xcffcefc0-0xcffcefff]
+[    0.010439] ACPI: Reserving DMAR table memory at [mem 0xcffaabef-0xcffaad0e]
+[    0.010440] ACPI: Reserving SLIC table memory at [mem 0xcffaad0f-0xcffaae84]
+[    0.010441] ACPI: Reserving MCFG table memory at [mem 0xcffaae85-0xcffaaec0]
+[    0.010442] ACPI: Reserving HPET table memory at [mem 0xcffaaec1-0xcffaaef8]
+[    0.010443] ACPI: Reserving APIC table memory at [mem 0xcffaaef9-0xcffaaf60]
+[    0.010444] ACPI: Reserving BOOT table memory at [mem 0xcffaaf61-0xcffaaf88]
+[    0.010445] ACPI: Reserving ASF! table memory at [mem 0xcffaaf89-0xcffaafff]
+[    0.010446] ACPI: Reserving SSDT table memory at [mem 0xcff9eb57-0xcff9edb5]
+[    0.010447] ACPI: Reserving SSDT table memory at [mem 0xcff9eab1-0xcff9eb56]
+[    0.010448] ACPI: Reserving SSDT table memory at [mem 0xcff9ea0b-0xcff9eab0]
+[    0.010449] ACPI: Reserving SSDT table memory at [mem 0xcff9e965-0xcff9ea0a]
+[    0.010450] ACPI: Reserving SSDT table memory at [mem 0xcff9e8bf-0xcff9e964]
+[    0.010451] ACPI: Reserving SSDT table memory at [mem 0xcff9e819-0xcff9e8be]
+[    0.010452] ACPI: Reserving SSDT table memory at [mem 0xcff9e773-0xcff9e818]
+[    0.010453] ACPI: Reserving SSDT table memory at [mem 0xcff9e6cd-0xcff9e772]
+[    0.010454] ACPI: Reserving SSDT table memory at [mem 0xcff9d30b-0xcff9e6cc]
+[    0.010594] No NUMA configuration found
+[    0.010595] Faking a node at [mem 0x0000000000000000-0x000000027effffff]
+[    0.010606] NODE_DATA(0) allocated [mem 0x27efd02c0-0x27effafff]
+[    0.010920] Zone ranges:
+[    0.010921]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.010923]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[    0.010924]   Normal   [mem 0x0000000100000000-0x000000027effffff]
+[    0.010926]   Device   empty
+[    0.010927] Movable zone start for each node
+[    0.010929] Early memory node ranges
+[    0.010930]   node   0: [mem 0x0000000000001000-0x000000000009cfff]
+[    0.010931]   node   0: [mem 0x0000000000100000-0x00000000cff8ffff]
+[    0.010933]   node   0: [mem 0x0000000100000000-0x000000027effffff]
+[    0.010935] Initmem setup node 0 [mem 0x0000000000001000-0x000000027effffff]
+[    0.010942] On node 0, zone DMA: 1 pages in unavailable ranges
+[    0.010986] On node 0, zone DMA: 99 pages in unavailable ranges
+[    0.119039] On node 0, zone Normal: 112 pages in unavailable ranges
+[    0.119182] On node 0, zone Normal: 4096 pages in unavailable ranges
+[    0.119192] Reserving Intel graphics memory at [mem 0xd8000000-0xdfffffff]
+[    0.119311] ACPI: PM-Timer IO Port: 0x1008
+[    0.119322] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+[    0.119325] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[    0.119339] IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+[    0.119343] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 high edge)
+[    0.119345] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[    0.119350] ACPI: Using ACPI (MADT) for SMP configuration information
+[    0.119351] ACPI: HPET id: 0xffffffff base: 0xfed00000
+[    0.119364] CPU topo: Max. logical packages:   1
+[    0.119365] CPU topo: Max. logical dies:       1
+[    0.119365] CPU topo: Max. dies per package:   1
+[    0.119372] CPU topo: Max. threads per core:   1
+[    0.119373] CPU topo: Num. cores per package:     2
+[    0.119374] CPU topo: Num. threads per package:   2
+[    0.119374] CPU topo: Allowing 2 present CPUs plus 0 hotplug CPUs
+[    0.119392] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.119394] PM: hibernation: Registered nosave memory: [mem 0x0009d000-0x000fffff]
+[    0.119396] PM: hibernation: Registered nosave memory: [mem 0xcff90000-0xffffffff]
+[    0.119398] [mem 0xe0000000-0xf7ffffff] available for PCI devices
+[    0.119399] Booting paravirtualized kernel on bare hardware
+[    0.119403] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+[    0.129401] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+[    0.130337] percpu: Embedded 62 pages/cpu s217088 r8192 d28672 u1048576
+[    0.130342] pcpu-alloc: s217088 r8192 d28672 u1048576 alloc=1*2097152
+[    0.130345] pcpu-alloc: [0] 0 1 
+[    0.130364] Kernel command line: quiet splash cryptdevice=PARTUUID=265cc117-02:root root=/dev/mapper/root zswap.enabled=0 rootflags=subvol=@ rw rootfstype=btrfs
+[    0.130469] Unknown kernel command line parameters "splash cryptdevice=PARTUUID=265cc117-02:root", will be passed to user space.
+[    0.130476] printk: log buffer data + meta data: 131072 + 458752 = 589824 bytes
+[    0.140509] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+[    0.146788] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[    0.146873] software IO TLB: area num 2.
+[    0.219324] Fallback order for Node 0: 0 
+[    0.219333] Built 1 zonelists, mobility grouping on.  Total pages: 2420524
+[    0.219335] Policy zone: Normal
+[    0.220319] mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+[    0.349412] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+[    0.349563] Kernel/User page tables isolation: enabled
+[    0.361007] ftrace: allocating 56529 entries in 224 pages
+[    0.361012] ftrace: allocated 224 pages with 3 groups
+[    0.361214] Dynamic Preempt: full
+[    0.361322] rcu: Preemptible hierarchical RCU implementation.
+[    0.361323] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+[    0.361324] rcu: 	RCU priority boosting: priority 1 delay 500 ms.
+[    0.361325] 	Trampoline variant of Tasks RCU enabled.
+[    0.361326] 	Rude variant of Tasks RCU enabled.
+[    0.361326] 	Tracing variant of Tasks RCU enabled.
+[    0.361327] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+[    0.361328] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[    0.361342] RCU Tasks: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+[    0.361344] RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+[    0.361346] RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+[    0.369403] NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+[    0.369633] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[    0.369779] kfence: initialized - using 2097152 bytes for 255 objects at 0x(____ptrval____)-0x(____ptrval____)
+[    0.369850] Console: colour dummy device 80x25
+[    0.369854] printk: legacy console [tty0] enabled
+[    0.370103] ACPI: Core revision 20250404
+[    0.370372] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484882848 ns
+[    0.370390] APIC: Switch to symmetric I/O mode setup
+[    0.370393] DMAR: Host address width 36
+[    0.370395] DMAR: DRHD base: 0x000000fed90000 flags: 0x0
+[    0.370412] DMAR: dmar0: reg_base_addr fed90000 ver 1:0 cap c9008020e30272 ecap 1000
+[    0.370415] DMAR: DRHD base: 0x000000fed91000 flags: 0x0
+[    0.370419] DMAR: dmar1: reg_base_addr fed91000 ver 1:0 cap c0000020630272 ecap 1000
+[    0.370421] DMAR: DRHD base: 0x000000fed92000 flags: 0x0
+[    0.370425] DMAR: dmar2: reg_base_addr fed92000 ver 1:0 cap c0000020630272 ecap 1000
+[    0.370427] DMAR: DRHD base: 0x000000fed93000 flags: 0x1
+[    0.370431] DMAR: dmar3: reg_base_addr fed93000 ver 1:0 cap c9008020630272 ecap 1000
+[    0.370433] DMAR: RMRR base: 0x000000d7c00000 end: 0x000000dfffffff
+[    0.370435] DMAR: RMRR base: 0x000000cffcf000 end: 0x000000cfffffff
+[    0.370903] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    0.375390] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2b2226fdfe3, max_idle_ns: 440795211676 ns
+[    0.375396] Calibrating delay loop (skipped), value calculated using timer frequency.. 5984.76 BogoMIPS (lpj=2992380)
+[    0.375410] Disabled fast string operations
+[    0.375446] Last level iTLB entries: 4KB 128, 2MB 4, 4MB 4
+[    0.375448] Last level dTLB entries: 4KB 256, 2MB 0, 4MB 32, 1GB 0
+[    0.375452] process: using mwait in idle threads
+[    0.375455] mitigations: Enabled attack vectors: user_kernel, user_user, guest_host, guest_guest, SMT mitigations: auto
+[    0.375462] Speculative Store Bypass: Vulnerable
+[    0.375464] Spectre V2 : Mitigation: Retpolines
+[    0.375465] MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+[    0.375466] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    0.375468] Spectre V2 : Spectre v2 / SpectreRSB: Filling RSB on context switch and VMEXIT
+[    0.375474] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.375476] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.375478] x86/fpu: Enabled xstate features 0x3, context size is 576 bytes, using 'standard' format.
+[    0.401723] Freeing SMP alternatives memory: 56K
+[    0.401733] pid_max: default: 32768 minimum: 301
+[    0.402273] LSM: initializing lsm=capability,landlock,lockdown,yama,bpf
+[    0.403043] landlock: Up and running.
+[    0.403047] Yama: becoming mindful.
+[    0.403315] LSM support for eBPF active
+[    0.403599] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.403664] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.508173] smpboot: CPU0: Intel(R) Core(TM)2 Duo CPU     E8400  @ 3.00GHz (family: 0x6, model: 0x17, stepping: 0xa)
+[    0.508393] Performance Events: PEBS fmt0+, Core2 events, 4-deep LBR, Intel PMU driver.
+[    0.508393] ... version:                2
+[    0.508393] ... bit width:              40
+[    0.508393] ... generic registers:      2
+[    0.508393] ... value mask:             000000ffffffffff
+[    0.508393] ... max period:             000000007fffffff
+[    0.508393] ... fixed-purpose events:   3
+[    0.508393] ... event mask:             0000000700000003
+[    0.508393] signal: max sigframe size: 1520
+[    0.508393] rcu: Hierarchical SRCU implementation.
+[    0.508393] rcu: 	Max phase no-delay instances is 400.
+[    0.508393] Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+[    0.508664] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    0.508724] smp: Bringing up secondary CPUs ...
+[    0.508938] smpboot: x86: Booting SMP configuration:
+[    0.508940] .... node  #0, CPUs:      #1
+[    0.511503] smp: Brought up 1 node, 2 CPUs
+[    0.511503] smpboot: Total of 2 processors activated (11969.52 BogoMIPS)
+[    0.512508] Memory: 9348808K/9682096K available (20061K kernel code, 2946K rwdata, 16220K rodata, 4692K init, 4880K bss, 326924K reserved, 0K cma-reserved)
+[    0.513880] devtmpfs: initialized
+[    0.513880] x86/mm: Memory block size: 128MB
+[    0.515437] ACPI: PM: Registering ACPI NVS region [mem 0xcffab000-0xcffcefff] (147456 bytes)
+[    0.515537] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[    0.515537] posixtimers hash table entries: 1024 (order: 2, 16384 bytes, linear)
+[    0.515537] futex hash table entries: 512 (32768 bytes on 1 NUMA nodes, total 32 KiB, linear).
+[    0.516021] pinctrl core: initialized pinctrl subsystem
+[    0.516500] PM: RTC time: 22:55:04, date: 2025-11-13
+[    0.517525] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.518151] DMA: preallocated 2048 KiB GFP_KERNEL pool for atomic allocations
+[    0.518670] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    0.519366] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.519403] audit: initializing netlink subsys (disabled)
+[    0.519453] audit: type=2000 audit(1763074504.149:1): state=initialized audit_enabled=0 res=1
+[    0.519643] thermal_sys: Registered thermal governor 'fair_share'
+[    0.519645] thermal_sys: Registered thermal governor 'bang_bang'
+[    0.519646] thermal_sys: Registered thermal governor 'step_wise'
+[    0.519648] thermal_sys: Registered thermal governor 'user_space'
+[    0.519649] thermal_sys: Registered thermal governor 'power_allocator'
+[    0.519661] cpuidle: using governor ladder
+[    0.519661] cpuidle: using governor menu
+[    0.519661] Simple Boot Flag at 0x36 set to 0x1
+[    0.519661] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    0.519872] PCI: ECAM [mem 0xf8000000-0xf90fffff] (base 0xf8000000) for domain 0000 [bus 00-10]
+[    0.519878] PCI: ECAM [mem 0xf8000000-0xf90fffff] reserved as E820 entry
+[    0.519895] PCI: Using configuration type 1 for base access
+[    0.520438] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[    0.522863] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.522865] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+[    0.530581] raid6: skipped pq benchmark and selected sse2x4
+[    0.530583] raid6: using ssse3x2 recovery algorithm
+[    0.530720] ACPI: Added _OSI(Module Device)
+[    0.530722] ACPI: Added _OSI(Processor Device)
+[    0.530723] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.538935] ACPI: 10 ACPI AML tables successfully acquired and loaded
+[    0.542332] ACPI: Dynamic OEM Table Load:
+[    0.542340] ACPI: SSDT 0xFFFF891B4028B800 0001DD (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.542846] ACPI: Dynamic OEM Table Load:
+[    0.542852] ACPI: SSDT 0xFFFF891B408B2800 00067D (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.543617] ACPI: Dynamic OEM Table Load:
+[    0.543623] ACPI: SSDT 0xFFFF891B4028B000 00016E (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.544010] ACPI: Dynamic OEM Table Load:
+[    0.544015] ACPI: SSDT 0xFFFF891B409EF600 000085 (v01 LENOVO TC-5C    0000014D INTL 20050228)
+[    0.546558] ACPI: Interpreter enabled
+[    0.546574] ACPI: PM: (supports S0 S3 S4 S5)
+[    0.546576] ACPI: Using IOAPIC for interrupt routing
+[    0.546961] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.546963] PCI: Using E820 reservations for host bridge windows
+[    0.547144] ACPI: Enabled 13 GPEs in block 00 to 3F
+[    0.566740] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-3f])
+[    0.566749] acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[    0.566808] ACPI BIOS Error (bug): Failure creating named object [\_SB.PCI0._OSC.CAPB], AE_ALREADY_EXISTS (20250404/dsfield-184)
+[    0.566814] ACPI Error: AE_ALREADY_EXISTS, CreateBufferField failure (20250404/dswload2-477)
+[    0.566819] ACPI Error: Aborting method \_SB.PCI0._OSC due to previous error (AE_ALREADY_EXISTS) (20250404/psparse-529)
+[    0.566829] acpi PNP0A03:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[    0.566832] acpi PNP0A03:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+[    0.566833] acpi PNP0A03:00: _OSC: platform retains control of PCIe features (AE_ALREADY_EXISTS)
+[    0.566841] acpi PNP0A03:00: [Firmware Info]: ECAM [mem 0xf8000000-0xf90fffff] for domain 0000 [bus 00-10] only partially covers this bridge
+[    0.567445] acpi PNP0A03:00: host bridge window expanded to [mem 0xe0000000-0xfffffffe window]; [mem 0xfed40000-0xfed4ffff window] ignored
+[    0.567820] PCI host bridge to bus 0000:00
+[    0.567825] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[    0.567827] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+[    0.567830] pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000dffff window]
+[    0.567832] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfffffffe window]
+[    0.567833] pci_bus 0000:00: root bus resource [io  0x0d00-0xfdff window]
+[    0.567835] pci_bus 0000:00: root bus resource [bus 00-3f]
+[    0.567852] pci 0000:00:00.0: [8086:2e10] type 00 class 0x060000 conventional PCI endpoint
+[    0.567874] pci 0000:00:00.0: DMAR: Disabling IOMMU for graphics on this chipset
+[    0.567875] pci 0000:00:00.0: DMAR: Forcing write-buffer flush capability
+[    0.567950] pci 0000:00:02.0: [8086:2e12] type 00 class 0x030000 conventional PCI endpoint
+[    0.567965] pci 0000:00:02.0: BAR 0 [mem 0xfc000000-0xfc3fffff 64bit]
+[    0.567968] pci 0000:00:02.0: BAR 2 [mem 0xe0000000-0xefffffff 64bit pref]
+[    0.567970] pci 0000:00:02.0: BAR 4 [io  0x1c70-0x1c77]
+[    0.567979] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[    0.568075] pci 0000:00:02.1: [8086:2e13] type 00 class 0x038000 conventional PCI endpoint
+[    0.568090] pci 0000:00:02.1: BAR 0 [mem 0xfc400000-0xfc4fffff 64bit]
+[    0.568196] pci 0000:00:03.0: [8086:2e14] type 00 class 0x078000 conventional PCI endpoint
+[    0.568249] pci 0000:00:03.0: BAR 0 [mem 0xfc624000-0xfc62400f 64bit]
+[    0.568298] pci 0000:00:03.0: PME# supported from D0 D3hot D3cold
+[    0.568622] pci 0000:00:03.2: [8086:2e16] type 00 class 0x010185 conventional PCI endpoint
+[    0.568671] pci 0000:00:03.2: BAR 0 [io  0x1c88-0x1c8f]
+[    0.568674] pci 0000:00:03.2: BAR 1 [io  0x1c7c-0x1c7f]
+[    0.568678] pci 0000:00:03.2: BAR 2 [io  0x1c80-0x1c87]
+[    0.568681] pci 0000:00:03.2: BAR 3 [io  0x1c78-0x1c7b]
+[    0.568684] pci 0000:00:03.2: BAR 4 [io  0x1c40-0x1c4f]
+[    0.568834] pci 0000:00:03.3: [8086:2e17] type 00 class 0x070002 conventional PCI endpoint
+[    0.568885] pci 0000:00:03.3: BAR 0 [io  0x1c90-0x1c97]
+[    0.568889] pci 0000:00:03.3: BAR 1 [mem 0xfc626000-0xfc626fff]
+[    0.569069] pci 0000:00:19.0: [8086:10de] type 00 class 0x020000 conventional PCI endpoint
+[    0.569111] pci 0000:00:19.0: BAR 0 [mem 0xfc600000-0xfc61ffff]
+[    0.569114] pci 0000:00:19.0: BAR 1 [mem 0xfc627000-0xfc627fff]
+[    0.569117] pci 0000:00:19.0: BAR 2 [io  0x1820-0x183f]
+[    0.569159] pci 0000:00:19.0: PME# supported from D0 D3hot D3cold
+[    0.569263] pci 0000:00:1a.0: [8086:3a67] type 00 class 0x0c0300 conventional PCI endpoint
+[    0.569309] pci 0000:00:1a.0: BAR 4 [io  0x1840-0x185f]
+[    0.569437] pci 0000:00:1a.1: [8086:3a68] type 00 class 0x0c0300 conventional PCI endpoint
+[    0.569483] pci 0000:00:1a.1: BAR 4 [io  0x1860-0x187f]
+[    0.569621] pci 0000:00:1a.2: [8086:3a69] type 00 class 0x0c0300 conventional PCI endpoint
+[    0.569667] pci 0000:00:1a.2: BAR 4 [io  0x1880-0x189f]
+[    0.569801] pci 0000:00:1a.7: [8086:3a6c] type 00 class 0x0c0320 conventional PCI endpoint
+[    0.569844] pci 0000:00:1a.7: BAR 0 [mem 0xfc628000-0xfc6283ff]
+[    0.569889] pci 0000:00:1a.7: PME# supported from D0 D3hot D3cold
+[    0.569996] pci 0000:00:1b.0: [8086:3a6e] type 00 class 0x040300 PCIe Root Complex Integrated Endpoint
+[    0.570039] pci 0000:00:1b.0: BAR 0 [mem 0xfc620000-0xfc623fff 64bit]
+[    0.570102] pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
+[    0.570201] pci 0000:00:1d.0: [8086:3a64] type 00 class 0x0c0300 conventional PCI endpoint
+[    0.570246] pci 0000:00:1d.0: BAR 4 [io  0x18a0-0x18bf]
+[    0.570368] pci 0000:00:1d.1: [8086:3a65] type 00 class 0x0c0300 conventional PCI endpoint
+[    0.570417] pci 0000:00:1d.1: BAR 4 [io  0x18c0-0x18df]
+[    0.570538] pci 0000:00:1d.2: [8086:3a66] type 00 class 0x0c0300 conventional PCI endpoint
+[    0.570583] pci 0000:00:1d.2: BAR 4 [io  0x18e0-0x18ff]
+[    0.570716] pci 0000:00:1d.7: [8086:3a6a] type 00 class 0x0c0320 conventional PCI endpoint
+[    0.570757] pci 0000:00:1d.7: BAR 0 [mem 0xfc629000-0xfc6293ff]
+[    0.570803] pci 0000:00:1d.7: PME# supported from D0 D3hot D3cold
+[    0.570905] pci 0000:00:1e.0: [8086:244e] type 01 class 0x060401 conventional PCI bridge
+[    0.570933] pci 0000:00:1e.0: PCI bridge to [bus 11] (subtractive decode)
+[    0.570940] pci 0000:00:1e.0:   bridge window [mem 0xfc500000-0xfc5fffff]
+[    0.571084] pci 0000:00:1f.0: [8086:3a14] type 00 class 0x060100 conventional PCI endpoint
+[    0.571309] pci 0000:00:1f.2: [8086:3a02] type 00 class 0x010601 conventional PCI endpoint
+[    0.571351] pci 0000:00:1f.2: BAR 0 [io  0x1ca8-0x1caf]
+[    0.571354] pci 0000:00:1f.2: BAR 1 [io  0x1c9c-0x1c9f]
+[    0.571357] pci 0000:00:1f.2: BAR 2 [io  0x1ca0-0x1ca7]
+[    0.571360] pci 0000:00:1f.2: BAR 3 [io  0x1c98-0x1c9b]
+[    0.571363] pci 0000:00:1f.2: BAR 4 [io  0x1c00-0x1c1f]
+[    0.571366] pci 0000:00:1f.2: BAR 5 [mem 0xfc62a000-0xfc62a7ff]
+[    0.571412] pci 0000:00:1f.2: PME# supported from D3hot
+[    0.571517] pci 0000:00:1f.3: [8086:3a60] type 00 class 0x0c0500 conventional PCI endpoint
+[    0.571560] pci 0000:00:1f.3: BAR 0 [mem 0xfc62b000-0xfc62b0ff 64bit]
+[    0.571565] pci 0000:00:1f.3: BAR 4 [io  0x1c20-0x1c3f]
+[    0.571669] pci_bus 0000:11: extended config space not accessible
+[    0.571697] pci 0000:11:00.0: [168c:0029] type 00 class 0x028000 conventional PCI endpoint
+[    0.571738] pci 0000:11:00.0: BAR 0 [mem 0xfc500000-0xfc50ffff]
+[    0.571774] pci 0000:11:00.0: PME# supported from D0 D3hot
+[    0.571862] pci 0000:00:1e.0: PCI bridge to [bus 11] (subtractive decode)
+[    0.571873] pci 0000:00:1e.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+[    0.571875] pci 0000:00:1e.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+[    0.571877] pci 0000:00:1e.0:   bridge window [mem 0x000d0000-0x000dffff window] (subtractive decode)
+[    0.571879] pci 0000:00:1e.0:   bridge window [mem 0xe0000000-0xfffffffe window] (subtractive decode)
+[    0.571881] pci 0000:00:1e.0:   bridge window [io  0x0d00-0xfdff window] (subtractive decode)
+[    0.572228] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+[    0.572290] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+[    0.572351] ACPI: PCI: Interrupt link LNKC configured for IRQ 5
+[    0.572416] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+[    0.572485] ACPI: PCI: Interrupt link LNKE configured for IRQ 3
+[    0.572549] ACPI: PCI: Interrupt link LNKF configured for IRQ 0
+[    0.572552] ACPI: PCI: Interrupt link LNKF disabled
+[    0.572615] ACPI: PCI: Interrupt link LNKG configured for IRQ 0
+[    0.572617] ACPI: PCI: Interrupt link LNKG disabled
+[    0.572680] ACPI: PCI: Interrupt link LNKH configured for IRQ 0
+[    0.572682] ACPI: PCI: Interrupt link LNKH disabled
+[    0.572711] platform INT0800:00: failed to claim resource 0: [mem 0xff800000-0xffffffff]
+[    0.572715] acpi INT0800:00: platform device creation failed: -16
+[    0.573722] iommu: Default domain type: Translated
+[    0.573722] iommu: DMA domain TLB invalidation policy: lazy mode
+[    0.573722] SCSI subsystem initialized
+[    0.573722] libata version 3.00 loaded.
+[    0.573722] ACPI: bus type USB registered
+[    0.573722] usbcore: registered new interface driver usbfs
+[    0.573722] usbcore: registered new interface driver hub
+[    0.573722] usbcore: registered new device driver usb
+[    0.573722] EDAC MC: Ver: 3.0.0
+[    0.574590] NetLabel: Initializing
+[    0.574591] NetLabel:  domain hash size = 128
+[    0.574593] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    0.574610] NetLabel:  unlabeled traffic allowed by default
+[    0.574616] mctp: management component transport protocol core
+[    0.574617] NET: Registered PF_MCTP protocol family
+[    0.574629] PCI: Using ACPI for IRQ routing
+[    0.575131] PCI: pci_cache_line_size set to 64 bytes
+[    0.575186] resource: Expanded resource Reserved due to conflict with PCI Bus 0000:00
+[    0.575188] e820: reserve RAM buffer [mem 0x0009d000-0x0009ffff]
+[    0.575190] e820: reserve RAM buffer [mem 0xcff90000-0xcfffffff]
+[    0.575192] e820: reserve RAM buffer [mem 0x27f000000-0x27fffffff]
+[    0.575213] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+[    0.575213] pci 0000:00:02.0: vgaarb: bridge control possible
+[    0.575213] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[    0.575213] vgaarb: loaded
+[    0.575213] Monitor-Mwait will be used to enter C-1 state
+[    0.575213] Monitor-Mwait will be used to enter C-2 state
+[    0.575213] tsc: Marking TSC unstable due to TSC halts in idle
+[    0.575486] hpet: 8 channels of 2 reserved for per-cpu timers
+[    0.575489] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 24, 25, 0, 0, 0
+[    0.575498] hpet0: 8 comparators, 64-bit 14.318180 MHz counter
+[    0.577472] clocksource: Switched to clocksource hpet
+[    0.578855] VFS: Disk quotas dquot_6.6.0
+[    0.578890] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.579023] pnp: PnP ACPI init
+[    0.579245] system 00:00: [io  0x0500-0x057f] has been reserved
+[    0.579252] system 00:00: [io  0x0800-0x080f] has been reserved
+[    0.579255] system 00:00: [io  0x1000-0x107f] has been reserved
+[    0.579257] system 00:00: [io  0x1180-0x11bf] has been reserved
+[    0.579259] system 00:00: [io  0x04d0-0x04d1] has been reserved
+[    0.579260] system 00:00: [io  0xfe00] has been reserved
+[    0.579264] system 00:00: [mem 0xfed14000-0xfed17fff] has been reserved
+[    0.579266] system 00:00: [mem 0xf8000000-0xfbffffff] has been reserved
+[    0.579269] system 00:00: [mem 0xfed20000-0xfed3ffff] has been reserved
+[    0.579271] system 00:00: [mem 0xfed12000-0xfed12fff] has been reserved
+[    0.579274] system 00:00: [mem 0xfed45000-0xfed8ffff] has been reserved
+[    0.579276] system 00:00: [mem 0xfef00000-0xfeffffff] has been reserved
+[    0.579279] system 00:00: [mem 0xfed18000-0xfed18fff] has been reserved
+[    0.579281] system 00:00: [mem 0xfed19000-0xfed19fff] has been reserved
+[    0.579283] system 00:00: [mem 0xfed1c000-0xfed1ffff] has been reserved
+[    0.579286] system 00:00: [mem 0xfed90000-0xfed93fff] could not be reserved
+[    0.579288] system 00:00: [mem 0xfee00000-0xfee00fff] has been reserved
+[    0.580297] pnp: PnP ACPI: found 4 devices
+[    0.587266] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    0.587445] NET: Registered PF_INET protocol family
+[    0.588020] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    0.607915] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[    0.608003] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    0.608260] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    0.608923] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[    0.609176] TCP: Hash tables configured (established 131072 bind 65536)
+[    0.609452] MPTCP token hash table entries: 16384 (order: 6, 393216 bytes, linear)
+[    0.609668] UDP hash table entries: 8192 (order: 7, 524288 bytes, linear)
+[    0.609917] UDP-Lite hash table entries: 8192 (order: 7, 524288 bytes, linear)
+[    0.610079] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.610089] NET: Registered PF_XDP protocol family
+[    0.610115] pci 0000:00:1e.0: PCI bridge to [bus 11]
+[    0.610124] pci 0000:00:1e.0:   bridge window [mem 0xfc500000-0xfc5fffff]
+[    0.610133] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[    0.610136] pci_bus 0000:00: resource 5 [mem 0x000a0000-0x000bffff window]
+[    0.610137] pci_bus 0000:00: resource 6 [mem 0x000d0000-0x000dffff window]
+[    0.610139] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfffffffe window]
+[    0.610141] pci_bus 0000:00: resource 8 [io  0x0d00-0xfdff window]
+[    0.610143] pci_bus 0000:11: resource 1 [mem 0xfc500000-0xfc5fffff]
+[    0.610145] pci_bus 0000:11: resource 4 [io  0x0000-0x0cf7 window]
+[    0.610147] pci_bus 0000:11: resource 5 [mem 0x000a0000-0x000bffff window]
+[    0.610148] pci_bus 0000:11: resource 6 [mem 0x000d0000-0x000dffff window]
+[    0.610150] pci_bus 0000:11: resource 7 [mem 0xe0000000-0xfffffffe window]
+[    0.610152] pci_bus 0000:11: resource 8 [io  0x0d00-0xfdff window]
+[    0.612602] PCI: CLS 32 bytes, default 64
+[    0.612640] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    0.612642] software IO TLB: mapped [mem 0x00000000cbf90000-0x00000000cff90000] (64MB)
+[    0.612715] Trying to unpack rootfs image as initramfs...
+[    0.652342] Initialise system trusted keyrings
+[    0.652359] Key type blacklist registered
+[    0.652460] workingset: timestamp_bits=36 max_order=22 bucket_order=0
+[    0.654803] fuse: init (API version 7.44)
+[    0.655004] integrity: Platform Keyring initialized
+[    0.655014] integrity: Machine keyring initialized
+[    0.671393] xor: measuring software checksum speed
+[    0.671607]    prefetch64-sse  : 15907 MB/sec
+[    0.671866]    generic_sse     : 12994 MB/sec
+[    0.671868] xor: using function: prefetch64-sse (15907 MB/sec)
+[    0.671873] Key type asymmetric registered
+[    0.671874] Asymmetric key parser 'x509' registered
+[    0.671967] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+[    0.672841] io scheduler mq-deadline registered
+[    0.672844] io scheduler kyber registered
+[    0.672888] io scheduler bfq registered
+[    0.673016] ledtrig-cpu: registered to indicate activity on CPUs
+[    0.673320] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/PNP0C0C:00/input/input0
+[    0.673390] ACPI: button: Power Button [PWRB]
+[    0.673436] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
+[    0.673480] ACPI: button: Power Button [PWRF]
+[    0.674764] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    0.678287] 0000:00:03.3: ttyS4 at I/O 0x1c90 (irq = 17, base_baud = 115200) is a 16550A
+[    0.679408] Non-volatile memory driver v1.3
+[    0.679411] Linux agpgart interface v0.103
+[    0.681342] tpm_tis 00:03: 1.2 TPM (device-id 0xFE, rev-id 70)
+[    0.693775] tpm tpm0: TPM is disabled/deactivated (0x6)
+[    0.694834] ACPI: bus type drm_connector registered
+[    0.695791] ahci 0000:00:1f.2: AHCI vers 0001.0200, 32 command slots, 3 Gbps, SATA mode
+[    0.695795] ahci 0000:00:1f.2: 2/6 ports implemented (port mask 0x9)
+[    0.695797] ahci 0000:00:1f.2: flags: 64bit ncq sntf led clo pmp pio slum part sxs 
+[    0.696524] scsi host0: ahci
+[    0.696804] scsi host1: ahci
+[    0.696981] scsi host2: ahci
+[    0.697128] scsi host3: ahci
+[    0.697313] scsi host4: ahci
+[    0.697476] scsi host5: ahci
+[    0.697548] ata1: SATA max UDMA/133 abar m2048@0xfc62a000 port 0xfc62a100 irq 26 lpm-pol 3
+[    0.697551] ata2: DUMMY
+[    0.697552] ata3: DUMMY
+[    0.697554] ata4: SATA max UDMA/133 abar m2048@0xfc62a000 port 0xfc62a280 irq 26 lpm-pol 1 ext
+[    0.697556] ata5: DUMMY
+[    0.697557] ata6: DUMMY
+[    0.697981] uhci_hcd 0000:00:1a.0: UHCI Host Controller
+[    0.697989] uhci_hcd 0000:00:1a.0: new USB bus registered, assigned bus number 1
+[    0.697997] uhci_hcd 0000:00:1a.0: detected 2 ports
+[    0.698026] uhci_hcd 0000:00:1a.0: irq 16, io port 0x00001840
+[    0.698121] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.17
+[    0.698125] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.698127] usb usb1: Product: UHCI Host Controller
+[    0.698128] usb usb1: Manufacturer: Linux 6.17.7-arch1-1 uhci_hcd
+[    0.698130] usb usb1: SerialNumber: 0000:00:1a.0
+[    0.698280] hub 1-0:1.0: USB hub found
+[    0.698289] hub 1-0:1.0: 2 ports detected
+[    0.698589] uhci_hcd 0000:00:1a.1: UHCI Host Controller
+[    0.698600] uhci_hcd 0000:00:1a.1: new USB bus registered, assigned bus number 2
+[    0.698607] uhci_hcd 0000:00:1a.1: detected 2 ports
+[    0.698637] uhci_hcd 0000:00:1a.1: irq 17, io port 0x00001860
+[    0.698749] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.17
+[    0.698752] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.698754] usb usb2: Product: UHCI Host Controller
+[    0.698756] usb usb2: Manufacturer: Linux 6.17.7-arch1-1 uhci_hcd
+[    0.698757] usb usb2: SerialNumber: 0000:00:1a.1
+[    0.698868] hub 2-0:1.0: USB hub found
+[    0.698889] hub 2-0:1.0: 2 ports detected
+[    0.699857] ehci-pci 0000:00:1a.7: EHCI Host Controller
+[    0.699864] ehci-pci 0000:00:1a.7: new USB bus registered, assigned bus number 3
+[    0.699875] ehci-pci 0000:00:1a.7: debug port 1
+[    0.703807] ehci-pci 0000:00:1a.7: irq 18, io mem 0xfc628000
+[    0.709753] ehci-pci 0000:00:1a.7: USB 2.0 started, EHCI 1.00
+[    0.709832] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.17
+[    0.709835] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.709837] usb usb3: Product: EHCI Host Controller
+[    0.709839] usb usb3: Manufacturer: Linux 6.17.7-arch1-1 ehci_hcd
+[    0.709841] usb usb3: SerialNumber: 0000:00:1a.7
+[    0.709983] hub 3-0:1.0: USB hub found
+[    0.709993] hub 3-0:1.0: 6 ports detected
+[    0.731825] hub 1-0:1.0: USB hub found
+[    0.731840] hub 1-0:1.0: 2 ports detected
+[    0.752862] hub 2-0:1.0: USB hub found
+[    0.752878] hub 2-0:1.0: 2 ports detected
+[    0.753052] uhci_hcd 0000:00:1a.2: UHCI Host Controller
+[    0.753061] uhci_hcd 0000:00:1a.2: new USB bus registered, assigned bus number 4
+[    0.753069] uhci_hcd 0000:00:1a.2: detected 2 ports
+[    0.753096] uhci_hcd 0000:00:1a.2: irq 18, io port 0x00001880
+[    0.753167] usb usb4: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.17
+[    0.753170] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.753172] usb usb4: Product: UHCI Host Controller
+[    0.753174] usb usb4: Manufacturer: Linux 6.17.7-arch1-1 uhci_hcd
+[    0.753175] usb usb4: SerialNumber: 0000:00:1a.2
+[    0.753336] hub 4-0:1.0: USB hub found
+[    0.753345] hub 4-0:1.0: 2 ports detected
+[    0.753701] uhci_hcd 0000:00:1d.0: UHCI Host Controller
+[    0.753707] uhci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 5
+[    0.753715] uhci_hcd 0000:00:1d.0: detected 2 ports
+[    0.753760] uhci_hcd 0000:00:1d.0: irq 16, io port 0x000018a0
+[    0.753821] usb usb5: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.17
+[    0.753824] usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.753826] usb usb5: Product: UHCI Host Controller
+[    0.753828] usb usb5: Manufacturer: Linux 6.17.7-arch1-1 uhci_hcd
+[    0.753829] usb usb5: SerialNumber: 0000:00:1d.0
+[    0.753936] hub 5-0:1.0: USB hub found
+[    0.753945] hub 5-0:1.0: 2 ports detected
+[    0.754182] ehci-pci 0000:00:1d.7: EHCI Host Controller
+[    0.754194] ehci-pci 0000:00:1d.7: new USB bus registered, assigned bus number 6
+[    0.754206] ehci-pci 0000:00:1d.7: debug port 1
+[    0.758124] ehci-pci 0000:00:1d.7: irq 16, io mem 0xfc629000
+[    0.763770] ehci-pci 0000:00:1d.7: USB 2.0 started, EHCI 1.00
+[    0.763906] usb usb6: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.17
+[    0.763910] usb usb6: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.763912] usb usb6: Product: EHCI Host Controller
+[    0.763914] usb usb6: Manufacturer: Linux 6.17.7-arch1-1 ehci_hcd
+[    0.763916] usb usb6: SerialNumber: 0000:00:1d.7
+[    0.764137] hub 6-0:1.0: USB hub found
+[    0.764148] hub 6-0:1.0: 6 ports detected
+[    0.777018] Freeing initrd memory: 25464K
+[    0.784892] hub 5-0:1.0: USB hub found
+[    0.784903] hub 5-0:1.0: 2 ports detected
+[    0.785037] uhci_hcd 0000:00:1d.1: UHCI Host Controller
+[    0.785048] uhci_hcd 0000:00:1d.1: new USB bus registered, assigned bus number 7
+[    0.785057] uhci_hcd 0000:00:1d.1: detected 2 ports
+[    0.785084] uhci_hcd 0000:00:1d.1: irq 17, io port 0x000018c0
+[    0.785178] usb usb7: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.17
+[    0.785181] usb usb7: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.785183] usb usb7: Product: UHCI Host Controller
+[    0.785185] usb usb7: Manufacturer: Linux 6.17.7-arch1-1 uhci_hcd
+[    0.785186] usb usb7: SerialNumber: 0000:00:1d.1
+[    0.785333] hub 7-0:1.0: USB hub found
+[    0.785342] hub 7-0:1.0: 2 ports detected
+[    0.785676] uhci_hcd 0000:00:1d.2: UHCI Host Controller
+[    0.785682] uhci_hcd 0000:00:1d.2: new USB bus registered, assigned bus number 8
+[    0.785689] uhci_hcd 0000:00:1d.2: detected 2 ports
+[    0.785712] uhci_hcd 0000:00:1d.2: irq 18, io port 0x000018e0
+[    0.785797] usb usb8: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.17
+[    0.785800] usb usb8: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.785802] usb usb8: Product: UHCI Host Controller
+[    0.785804] usb usb8: Manufacturer: Linux 6.17.7-arch1-1 uhci_hcd
+[    0.785805] usb usb8: SerialNumber: 0000:00:1d.2
+[    0.785909] hub 8-0:1.0: USB hub found
+[    0.785918] hub 8-0:1.0: 2 ports detected
+[    0.786149] usbcore: registered new interface driver usbserial_generic
+[    0.786156] usbserial: USB Serial support registered for generic
+[    0.786192] i8042: PNP: No PS/2 controller found.
+[    0.786312] rtc_cmos 00:01: RTC can wake from S4
+[    0.786611] rtc_cmos 00:01: registered as rtc0
+[    0.786649] rtc_cmos 00:01: setting system clock to 2025-11-13T22:55:04 UTC (1763074504)
+[    0.786683] rtc_cmos 00:01: alarms up to one month, y3k, 114 bytes nvram, hpet irqs
+[    0.786759] intel_pstate: CPU model not supported
+[    0.787283] simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+[    0.787285] [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+[    0.789161] fbcon: Deferring console take-over
+[    0.789166] simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+[    0.789208] hid: raw HID events driver (C) Jiri Kosina
+[    0.789245] usbcore: registered new interface driver usbhid
+[    0.789246] usbhid: USB HID core driver
+[    0.789334] drop_monitor: Initializing network drop monitor service
+[    0.789565] NET: Registered PF_INET6 protocol family
+[    0.790121] Segment Routing with IPv6
+[    0.790123] RPL Segment Routing with IPv6
+[    0.790143] In-situ OAM (IOAM) with IPv6
+[    0.790170] NET: Registered PF_PACKET protocol family
+[    0.790411] microcode: Current revision: 0x00000a0b
+[    0.790484] IPI shorthand broadcast: enabled
+[    0.794055] registered taskstats version 1
+[    0.794359] Loading compiled-in X.509 certificates
+[    0.803840] Loaded X.509 cert 'Build time autogenerated kernel key: 46d261b4279a399a9dad440045a7c0163909f942'
+[    0.807256] Demotion targets for Node 0: null
+[    0.807507] Key type .fscrypt registered
+[    0.807509] Key type fscrypt-provisioning registered
+[    0.809676] Btrfs loaded, zoned=yes, fsverity=yes
+[    0.809740] Key type big_key registered
+[    0.810207] PM:   Magic number: 1:235:957
+[    0.812463] RAS: Correctable Errors collector initialized.
+[    0.818601] Unstable clock detected, switching default tracing clock to "global"
+               If you want to keep using the local clock, then add:
+                 "trace_clock=local"
+               on the kernel command line
+[    0.818673] clk: Disabling unused clocks
+[    0.818675] PM: genpd: Disabling unused power domains
+[    1.008193] ata4: SATA link down (SStatus 0 SControl 300)
+[    1.130754] usb 7-1: new low-speed USB device number 2 using uhci_hcd
+[    1.154761] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[    1.155025] ata1.00: ATA-9: BHT WR202H0032G E70270F5, 700100, max UDMA7
+[    1.155029] ata1.00: 59768832 sectors, multi 1: LBA48 
+[    1.155339] ata1.00: configured for UDMA/133
+[    1.155602] scsi 0:0:0:0: Direct-Access     ATA      BHT WR202H0032G  00   PQ: 0 ANSI: 5
+[    1.155987] sd 0:0:0:0: [sda] 59768832 512-byte logical blocks: (30.6 GB/28.5 GiB)
+[    1.155999] sd 0:0:0:0: [sda] Write Protect is off
+[    1.156001] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    1.156018] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    1.156050] sd 0:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+[    1.165573]  sda: sda1 sda2
+[    1.165721] sd 0:0:0:0: [sda] Attached SCSI disk
+[    1.168965] Freeing unused decrypted memory: 2028K
+[    1.170362] Freeing unused kernel image (initmem) memory: 4692K
+[    1.170513] Write protecting the kernel read-only data: 36864k
+[    1.170928] Freeing unused kernel image (text/rodata gap) memory: 416K
+[    1.171058] Freeing unused kernel image (rodata/data gap) memory: 164K
+[    1.219831] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    1.219839] rodata_test: all tests were successful
+[    1.219924] x86/mm: Checking user space page tables
+[    1.262746] usb 1-1: new low-speed USB device number 2 using uhci_hcd
+[    1.266615] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    1.266623] Run /init as init process
+[    1.266625]   with arguments:
+[    1.266626]     /init
+[    1.266627]     splash
+[    1.266629]   with environment:
+[    1.266630]     HOME=/
+[    1.266631]     TERM=linux
+[    1.266632]     cryptdevice=PARTUUID=265cc117-02:root
+[    1.306776] usb 7-1: New USB device found, idVendor=1a2c, idProduct=2124, bcdDevice= 1.10
+[    1.306783] usb 7-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    1.306785] usb 7-1: Product: USB Keyboard
+[    1.306787] usb 7-1: Manufacturer: SEM
+[    1.323081] input: SEM USB Keyboard as /devices/pci0000:00/0000:00:1d.1/usb7/7-1/7-1:1.0/0003:1A2C:2124.0001/input/input2
+[    1.386984] hid-generic 0003:1A2C:2124.0001: input,hidraw0: USB HID v1.10 Keyboard [SEM USB Keyboard] on usb-0000:00:1d.1-1/input0
+[    1.400160] input: SEM USB Keyboard Consumer Control as /devices/pci0000:00/0000:00:1d.1/usb7/7-1/7-1:1.1/0003:1A2C:2124.0002/input/input3
+[    1.450847] input: SEM USB Keyboard System Control as /devices/pci0000:00/0000:00:1d.1/usb7/7-1/7-1:1.1/0003:1A2C:2124.0002/input/input4
+[    1.451268] hid-generic 0003:1A2C:2124.0002: input,hidraw1: USB HID v1.10 Device [SEM USB Keyboard] on usb-0000:00:1d.1-1/input1
+[    1.610200] ACPI Warning: SystemIO range 0x0000000000001028-0x000000000000102F conflicts with OpRegion 0x0000000000001000-0x000000000000102F (\_SB.PCI0.LPC0.PMIO) (20250404/utaddress-204)
+[    1.610209] ACPI: OSL: Resource conflict; ACPI support missing from driver?
+[    1.610213] ACPI Warning: SystemIO range 0x0000000000001180-0x00000000000011AF conflicts with OpRegion 0x0000000000001180-0x00000000000011AF (\_SB.PCI0.LPC0.GPOX) (20250404/utaddress-204)
+[    1.610216] ACPI: OSL: Resource conflict; ACPI support missing from driver?
+[    1.610395] lpc_ich: Resource conflict(s) found affecting gpio_ich
+[    1.841780] usb 1-1: New USB device found, idVendor=4e53, idProduct=5407, bcdDevice= 1.00
+[    1.841788] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    1.841790] usb 1-1: Product: USB OPTICAL MOUSE 
+[    1.860087] input: USB OPTICAL MOUSE  as /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1:1.0/0003:4E53:5407.0003/input/input5
+[    1.860482] hid-generic 0003:4E53:5407.0003: input,hidraw2: USB HID v1.11 Mouse [USB OPTICAL MOUSE ] on usb-0000:00:1a.0-1/input0
+[    1.885398] input: USB OPTICAL MOUSE  Keyboard as /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1:1.1/0003:4E53:5407.0004/input/input6
+[    1.936014] hid-generic 0003:4E53:5407.0004: input,hiddev96,hidraw3: USB HID v1.10 Keyboard [USB OPTICAL MOUSE ] on usb-0000:00:1a.0-1/input1
+[    2.513459] i915 0000:00:02.0: [drm] Found g45 (device ID 2e12) integrated display version 4.00 stepping N/A
+[    2.513683] pci 0000:00:00.0: Intel Q45/Q43 Chipset
+[    2.513703] pci 0000:00:00.0: detected gtt size: 2097152K total, 262144K mappable
+[    2.514393] pci 0000:00:00.0: detected 131072K stolen memory
+[    2.531106] i915 0000:00:02.0: vgaarb: deactivate vga console
+[    2.543628] i915 0000:00:02.0: [drm] Registered 2 planes with drm panic
+[    2.543632] [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1
+[    2.543768] ACPI: video: Video Device [IGD0] (multi-head: yes  rom: no  post: no)
+[    2.543941] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input8
+[    2.821843] fbcon: i915drmfb (fb0) is primary device
+[    2.821845] fbcon: Deferring console take-over
+[    2.821848] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[    3.176601] device-mapper: uevent: version 1.0.3
+[    3.176717] device-mapper: ioctl: 4.50.0-ioctl (2025-04-28) initialised: dm-devel@lists.linux.dev
+[    3.194670] Key type trusted registered
+[    3.328074] Key type encrypted registered
+[    3.520742] random: crng init done
+[   15.714874] BTRFS: device fsid f39a9f54-4acf-4cd9-a67d-0950ac8e7e6e devid 1 transid 899 /dev/mapper/root (253:0) scanned by mount (321)
+[   15.715750] BTRFS info (device dm-0): first mount of filesystem f39a9f54-4acf-4cd9-a67d-0950ac8e7e6e
+[   15.715762] BTRFS info (device dm-0): using crc32c (crc32c-lib) checksum algorithm
+[   15.739558] BTRFS info (device dm-0): enabling ssd optimizations
+[   15.739562] BTRFS info (device dm-0): enabling free space tree
+[   16.402159] systemd[1]: systemd 258.2-2-arch running in system mode (+PAM +AUDIT -SELINUX +APPARMOR -IMA +IPE +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF +XKBCOMMON +UTMP -SYSVINIT +LIBARCHIVE)
+[   16.402175] systemd[1]: Detected architecture x86-64.
+[   16.408623] systemd[1]: Hostname set to <omarchy>.
+[   16.564760] systemd[1]: bpf-restrict-fs: LSM BPF program attached
+[   16.724062] zram: Added device: zram0
+[   16.941376] systemd[1]: Queued start job for default target Graphical Interface.
+[   16.964203] systemd[1]: Created slice CUPS Slice.
+[   16.964913] systemd[1]: Created slice Slice /system/dirmngr.
+[   16.965537] systemd[1]: Created slice Slice /system/getty.
+[   16.966172] systemd[1]: Created slice Slice /system/gpg-agent.
+[   16.966827] systemd[1]: Created slice Slice /system/gpg-agent-browser.
+[   16.967451] systemd[1]: Created slice Slice /system/gpg-agent-extra.
+[   16.968092] systemd[1]: Created slice Slice /system/gpg-agent-ssh.
+[   16.968719] systemd[1]: Created slice Slice /system/keyboxd.
+[   16.969350] systemd[1]: Created slice Slice /system/modprobe.
+[   16.970022] systemd[1]: Created slice Slice /system/systemd-zram-setup.
+[   16.970515] systemd[1]: Created slice User and Session Slice.
+[   16.970609] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[   16.970863] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[   16.970901] systemd[1]: Expecting device /dev/disk/by-uuid/0917-DF8E...
+[   16.970924] systemd[1]: Expecting device /dev/disk/by-uuid/f39a9f54-4acf-4cd9-a67d-0950ac8e7e6e...
+[   16.970947] systemd[1]: Expecting device /dev/zram0...
+[   16.970979] systemd[1]: Reached target Login Prompts.
+[   16.971013] systemd[1]: Reached target Image Downloads.
+[   16.971043] systemd[1]: Reached target Local Integrity Protected Volumes.
+[   16.971098] systemd[1]: Reached target Remote File Systems.
+[   16.971128] systemd[1]: Reached target Slice Units.
+[   16.971184] systemd[1]: Reached target Local Verity Protected Volumes.
+[   16.971306] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[   16.972923] systemd[1]: Listening on Query the User Interactively for a Password.
+[   16.974455] systemd[1]: Listening on Process Core Dump Socket.
+[   16.975470] systemd[1]: Listening on Credential Encryption/Decryption.
+[   16.977035] systemd[1]: Listening on Factory Reset Management.
+[   16.977172] systemd[1]: Listening on Journal Socket (/dev/log).
+[   16.977301] systemd[1]: Listening on Journal Sockets.
+[   16.977544] systemd[1]: Listening on Network Service Varlink Socket.
+[   16.977751] systemd[1]: Listening on Network Service Netlink Socket.
+[   16.977785] systemd[1]: TPM PCR Measurements was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+[   16.977812] systemd[1]: Make TPM PCR Policy was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+[   16.977917] systemd[1]: Listening on Resolve Monitor Varlink Socket.
+[   16.978006] systemd[1]: Listening on Resolve Service Varlink Socket.
+[   16.978120] systemd[1]: Listening on udev Control Socket.
+[   16.978202] systemd[1]: Listening on udev Kernel Socket.
+[   16.978304] systemd[1]: Listening on udev Varlink Socket.
+[   16.978414] systemd[1]: Listening on User Database Manager Socket.
+[   16.984321] systemd[1]: Mounting Huge Pages File System...
+[   16.985515] systemd[1]: Mounting POSIX Message Queue File System...
+[   16.989990] systemd[1]: Mounting Kernel Debug File System...
+[   16.991868] systemd[1]: Mounting Kernel Trace File System...
+[   16.997975] systemd[1]: Starting Create List of Static Device Nodes...
+[   16.998050] systemd[1]: Load Kernel Module configfs was skipped because of an unmet condition check (ConditionKernelModuleLoaded=!configfs).
+[   16.999702] systemd[1]: Mounting Kernel Configuration File System...
+[   16.999782] systemd[1]: Load Kernel Module dm_mod was skipped because of an unmet condition check (ConditionKernelModuleLoaded=!dm_mod).
+[   17.001636] systemd[1]: Load Kernel Module drm was skipped because of an unmet condition check (ConditionKernelModuleLoaded=!drm).
+[   17.001688] systemd[1]: Load Kernel Module fuse was skipped because of an unmet condition check (ConditionKernelModuleLoaded=!fuse).
+[   17.008417] systemd[1]: Mounting FUSE Control File System...
+[   17.015251] systemd[1]: Starting Load Kernel Module loop...
+[   17.015357] systemd[1]: Clear Stale Hibernate Storage Info was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/HibernateLocation-8cf2644b-4b0b-428f-9387-6d876050dc67).
+[   17.020834] systemd[1]: Starting Journal Service...
+[   17.026829] systemd[1]: Starting Load Kernel Modules...
+[   17.029149] systemd[1]: Starting Generate Network Units from Kernel Command Line...
+[   17.029197] systemd[1]: TPM PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+[   17.034628] systemd[1]: Starting Remount Root and Kernel File Systems...
+[   17.034720] systemd[1]: Early TPM SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+[   17.040862] systemd[1]: Starting Load udev Rules from Credentials...
+[   17.043108] systemd[1]: Starting Coldplug All udev Devices...
+[   17.047929] systemd[1]: Starting Virtual Console Setup...
+[   17.050770] loop: module loaded
+[   17.053273] systemd[1]: Mounted Huge Pages File System.
+[   17.053473] systemd[1]: Mounted POSIX Message Queue File System.
+[   17.053631] systemd[1]: Mounted Kernel Debug File System.
+[   17.053834] systemd[1]: Mounted Kernel Trace File System.
+[   17.055789] systemd[1]: Finished Create List of Static Device Nodes.
+[   17.056040] systemd[1]: Mounted Kernel Configuration File System.
+[   17.056192] systemd[1]: Mounted FUSE Control File System.
+[   17.056502] systemd[1]: modprobe@loop.service: Deactivated successfully.
+[   17.057462] systemd[1]: Finished Load Kernel Module loop.
+[   17.059375] systemd[1]: Repartition Root Disk was skipped because no trigger condition checks were met.
+[   17.067549] systemd[1]: Starting Create Static Device Nodes in /dev gracefully...
+[   17.093877] systemd[1]: Finished Generate Network Units from Kernel Command Line.
+[   17.094792] Asymmetric key parser 'pkcs8' registered
+[   17.097995] systemd[1]: Finished Load Kernel Modules.
+[   17.098217] systemd[1]: Reached target Preparation for Network.
+[   17.106025] systemd[1]: Starting Apply Kernel Variables...
+[   17.109307] systemd-journald[390]: Collecting audit messages is disabled.
+[   17.114826] systemd[1]: Finished Load udev Rules from Credentials.
+[   17.128838] systemd[1]: Finished Virtual Console Setup.
+[   17.185888] systemd[1]: Finished Apply Kernel Variables.
+[   17.193639] systemd[1]: Starting CLI Netfilter Manager...
+[   17.229255] systemd[1]: Starting User Database Manager...
+[   17.302447] systemd[1]: Started Journal Service.
+[   17.899029] BTRFS info (device dm-0 state M): use zstd compression, level 3
+[   18.419711] zram0: detected capacity change from 0 to 8388608
+[   18.438724] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[   18.453509] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[   18.453805] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+[   18.568593] Adding 4194300k swap on /dev/zram0.  Priority:100 extents:1 across:4194300k SSDsc
+[   18.670639] systemd-journald[390]: Received client request to flush runtime journal.
+[   19.023563] pata_acpi 0000:00:03.2: enabling device (0004 -> 0005)
+[   19.059835] pps_core: LinuxPPS API ver. 1 registered
+[   19.059841] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[   19.059979] scsi host6: ata_generic
+[   19.060639] scsi host7: ata_generic
+[   19.060703] ata7: PATA max UDMA/100 cmd 0x1c88 ctl 0x1c7c bmdma 0x1c40 irq 18 lpm-pol 0
+[   19.060706] ata8: PATA max UDMA/100 cmd 0x1c80 ctl 0x1c78 bmdma 0x1c48 irq 18 lpm-pol 0
+[   19.080753] mousedev: PS/2 mouse device common for all mice
+[   19.113595] PTP clock support registered
+[   19.160770] iTCO_vendor_support: vendor-support=0
+[   19.169231] gpio_ich gpio_ich.2.auto: GPIO from 512 to 583
+[   19.184152] input: PC Speaker as /devices/platform/pcspkr/input/input9
+[   19.493233] i801_smbus 0000:00:1f.3: enabling device (0001 -> 0003)
+[   19.519376] e1000e: Intel(R) PRO/1000 Network Driver
+[   19.519379] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+[   19.520213] i801_smbus 0000:00:1f.3: SMBus using PCI interrupt
+[   19.521368] i2c i2c-7: Successfully instantiated SPD at 0x50
+[   19.526267] i2c i2c-7: Successfully instantiated SPD at 0x51
+[   19.526560] i2c i2c-7: Successfully instantiated SPD at 0x52
+[   19.526845] i2c i2c-7: Successfully instantiated SPD at 0x53
+[   19.529112] e1000e 0000:00:19.0: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+[   19.545363] iTCO_wdt iTCO_wdt.1.auto: Found a ICH10DO TCO device (Version=2, TCOBASE=0x1060)
+[   19.571930] iTCO_wdt iTCO_wdt.1.auto: initialized. heartbeat=30 sec (nowayout=0)
+[   19.629176] at24 7-0050: supply vcc not found, using dummy regulator
+[   19.634104] at24 7-0050: 256 byte spd EEPROM, read-only
+[   19.634281] at24 7-0051: supply vcc not found, using dummy regulator
+[   19.638840] at24 7-0051: 256 byte spd EEPROM, read-only
+[   19.638971] at24 7-0052: supply vcc not found, using dummy regulator
+[   19.645576] at24 7-0052: 256 byte spd EEPROM, read-only
+[   19.645879] at24 7-0053: supply vcc not found, using dummy regulator
+[   19.648952] at24 7-0053: 256 byte spd EEPROM, read-only
+[   19.968929] e1000e 0000:00:19.0 eth0: (PCI Express:2.5GT/s:Width x1) 00:24:1d:f1:49:2d
+[   19.975264] e1000e 0000:00:19.0 eth0: Intel(R) PRO/1000 Network Connection
+[   19.975328] e1000e 0000:00:19.0 eth0: MAC: 8, PHY: 8, PBA No: FFFFFF-0FF
+[   20.204837] ACPI Warning: \WMI1.WQA5: Insufficient arguments - Caller passed 1, method requires 2 (20250404/nsarguments-232)
+[   20.205069] think-lmi 51F5230E-9677-46CD-A1CF-C0B23EE34DB7-0: probe with driver think-lmi failed with error -5
+[   20.257038] e1000e 0000:00:19.0 enp0s25: renamed from eth0
+[   20.390437] intel_powerclamp: No package C-state available
+[   20.560779] NET: Registered PF_ALG protocol family
+[   20.809221] snd_hda_codec_analog hdaudioC0D2: autoconfig for AD1882: line_outs=1 (0x12/0x0/0x0/0x0/0x0) type:line
+[   20.809229] snd_hda_codec_analog hdaudioC0D2:    speaker_outs=1 (0x13/0x0/0x0/0x0/0x0)
+[   20.809232] snd_hda_codec_analog hdaudioC0D2:    hp_outs=1 (0x11/0x0/0x0/0x0/0x0)
+[   20.809234] snd_hda_codec_analog hdaudioC0D2:    mono: mono_out=0x0
+[   20.809236] snd_hda_codec_analog hdaudioC0D2:    inputs:
+[   20.809238] snd_hda_codec_analog hdaudioC0D2:      Front Mic=0x14
+[   20.809240] snd_hda_codec_analog hdaudioC0D2:      Rear Mic=0x17
+[   20.809242] snd_hda_codec_analog hdaudioC0D2:      Line=0x15
+[   20.809243] snd_hda_codec_analog hdaudioC0D2:      CD=0x18
+[   20.822873] input: HDA Intel Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input10
+[   20.822946] input: HDA Intel Rear Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input11
+[   20.823016] input: HDA Intel Line as /devices/pci0000:00/0000:00:1b.0/sound/card0/input12
+[   20.823074] input: HDA Intel Line Out as /devices/pci0000:00/0000:00:1b.0/sound/card0/input13
+[   20.823130] input: HDA Intel Front Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card0/input14
+[   22.031624] e1000e 0000:00:19.0 enp0s25: NIC Link is Up 100 Mbps Full Duplex, Flow Control: Rx/Tx
+[   23.183545] ath: EEPROM regdomain: 0x809c
+[   23.183554] ath: EEPROM indicates we should expect a country code
+[   23.183556] ath: doing EEPROM country->regdmn map search
+[   23.183557] ath: country maps to regdmn code: 0x52
+[   23.183558] ath: Country alpha2 being used: CN
+[   23.183559] ath: Regpair used: 0x52
+[   23.194977] ieee80211 phy0: Selected rate control algorithm 'minstrel_ht'
+[   23.253765] ieee80211 phy0: Atheros AR9280 Rev:2 mem=0x00000000cb8fe01c, irq=20
+[   23.564885] wlan0: authenticate with b0:4e:26:8a:f4:a5 (local address=f4:ec:38:ff:e5:51)
+[   23.564892] wlan0: send auth to b0:4e:26:8a:f4:a5 (try 1/3)
+[   23.607203] wlan0: authenticated
+[   23.608742] wlan0: associate with b0:4e:26:8a:f4:a5 (try 1/3)
+[   23.662673] wlan0: RX AssocResp from b0:4e:26:8a:f4:a5 (capab=0x411 status=0 aid=4)
+[   23.662889] wlan0: associated
+[   23.663599] [UFW BLOCK] IN=enp0s25 OUT= MAC= SRC=fe80:0000:0000:0000:0224:1dff:fef1:492d DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=73 TC=0 HOPLIMIT=255 FLOWLBL=527249 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   23.875869] [UFW BLOCK] IN=enp0s25 OUT= MAC= SRC=fe80:0000:0000:0000:0224:1dff:fef1:492d DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=73 TC=0 HOPLIMIT=255 FLOWLBL=527249 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   24.325945] [UFW BLOCK] IN=enp0s25 OUT= MAC= SRC=fe80:0000:0000:0000:0224:1dff:fef1:492d DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=73 TC=0 HOPLIMIT=255 FLOWLBL=527249 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   25.366505] [UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:f6ec:38ff:feff:e551 DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=73 TC=0 HOPLIMIT=255 FLOWLBL=203075 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   25.464448] [UFW BLOCK] IN=enp0s25 OUT= MAC=33:33:00:01:00:03:f4:ec:38:ff:e5:51:86:dd SRC=fe80:0000:0000:0000:f6ec:38ff:feff:e551 DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=73 TC=0 HOPLIMIT=255 FLOWLBL=203075 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   25.716517] [UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:f6ec:38ff:feff:e551 DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=73 TC=0 HOPLIMIT=255 FLOWLBL=203075 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   25.719855] [UFW BLOCK] IN=enp0s25 OUT= MAC=33:33:00:01:00:03:f4:ec:38:ff:e5:51:86:dd SRC=fe80:0000:0000:0000:f6ec:38ff:feff:e551 DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=73 TC=0 HOPLIMIT=255 FLOWLBL=203075 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   25.976591] Initializing XFRM netlink socket
+[   26.166672] [UFW BLOCK] IN=wlan0 OUT= MAC= SRC=fe80:0000:0000:0000:f6ec:38ff:feff:e551 DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=73 TC=0 HOPLIMIT=255 FLOWLBL=203075 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   26.168739] [UFW BLOCK] IN=enp0s25 OUT= MAC=33:33:00:01:00:03:f4:ec:38:ff:e5:51:86:dd SRC=fe80:0000:0000:0000:f6ec:38ff:feff:e551 DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=73 TC=0 HOPLIMIT=255 FLOWLBL=203075 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   26.303410] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+[   28.096578] [UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.0.119 DST=224.0.0.252 LEN=53 TOS=0x00 PREC=0x00 TTL=255 ID=34643 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   28.446601] [UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.0.119 DST=224.0.0.252 LEN=53 TOS=0x00 PREC=0x00 TTL=255 ID=34966 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   28.897085] [UFW BLOCK] IN=wlan0 OUT= MAC= SRC=192.168.0.119 DST=224.0.0.252 LEN=53 TOS=0x00 PREC=0x00 TTL=255 ID=35341 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   31.118405] [UFW BLOCK] IN=enp0s25 OUT= MAC= SRC=192.168.0.107 DST=224.0.0.252 LEN=53 TOS=0x00 PREC=0x00 TTL=255 ID=8353 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   31.468461] [UFW BLOCK] IN=enp0s25 OUT= MAC= SRC=192.168.0.107 DST=224.0.0.252 LEN=53 TOS=0x00 PREC=0x00 TTL=255 ID=8665 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   31.711891] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[   31.918505] [UFW BLOCK] IN=enp0s25 OUT= MAC= SRC=192.168.0.107 DST=224.0.0.252 LEN=53 TOS=0x00 PREC=0x00 TTL=255 ID=8999 PROTO=UDP SPT=5355 DPT=5355 LEN=33 
+[   37.504908] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[   37.599120] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  156.688721] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  156.788811] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  163.352560] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  163.353719] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  281.744009] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  281.750876] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  286.919883] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  286.941605] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  406.672536] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  406.783137] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  406.786030] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  406.797607] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  531.678778] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  531.812915] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  531.813255] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  531.813988] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  557.064601] fbcon: Taking over console
+[  557.073655] Console: switching to colour frame buffer device 160x64
+[  657.150025] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  657.153281] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  657.450323] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  657.453122] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  782.153274] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  782.205229] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  907.147052] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  907.151017] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  907.152281] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[  907.154927] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1032.133576] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1032.137879] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1032.141766] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1032.141793] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1165.875788] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1165.886118] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1165.978018] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1166.002657] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1289.274803] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1289.286090] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1289.450558] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1289.455158] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1407.117580] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1407.122211] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1407.134194] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1407.376229] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1535.222845] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1535.227360] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1535.610260] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1657.098878] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1657.100227] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1657.103436] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1657.108231] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1782.219165] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1782.219418] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1782.220557] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1782.223373] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1907.080688] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1907.081970] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1907.083970] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 1907.083998] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2032.070742] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2032.377022] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2032.379486] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2032.447034] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2157.062224] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2157.063625] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2157.064771] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2157.618219] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2282.235231] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2282.235250] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2282.238377] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2407.050418] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2407.056844] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2407.078507] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2407.090533] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2532.045821] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2532.050393] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2532.059837] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2657.039926] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2657.042899] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2657.042916] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2782.264578] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2782.268113] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2782.319668] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2907.030678] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2907.032393] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 2993.926232] [UFW BLOCK] IN=enp0s25 OUT= MAC=33:33:00:01:00:03:80:ee:73:12:06:28:86:dd SRC=fe80:0000:0000:0000:a538:bd16:e378:427d DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=81 TC=0 HOPLIMIT=1 FLOWLBL=367068 PROTO=UDP SPT=63776 DPT=5355 LEN=41 
+[ 2993.926492] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:fc:80:ee:73:12:06:28:08:00 SRC=169.254.66.125 DST=224.0.0.252 LEN=61 TOS=0x00 PREC=0x00 TTL=1 ID=21788 PROTO=UDP SPT=63776 DPT=5355 LEN=41 
+[ 2993.955534] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:fc:80:ee:73:12:06:28:08:00 SRC=169.254.66.125 DST=224.0.0.252 LEN=61 TOS=0x00 PREC=0x00 TTL=1 ID=21788 PROTO=UDP SPT=63776 DPT=5355 LEN=41 
+[ 2996.609006] [UFW BLOCK] IN=enp0s25 OUT= MAC=33:33:00:01:00:03:80:ee:73:12:06:28:86:dd SRC=fe80:0000:0000:0000:a538:bd16:e378:427d DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=81 TC=0 HOPLIMIT=1 FLOWLBL=966657 PROTO=UDP SPT=49468 DPT=5355 LEN=41 
+[ 2996.609263] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:fc:80:ee:73:12:06:28:08:00 SRC=192.168.0.118 DST=224.0.0.252 LEN=61 TOS=0x00 PREC=0x00 TTL=1 ID=53591 PROTO=UDP SPT=49468 DPT=5355 LEN=41 
+[ 2996.658920] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:fc:80:ee:73:12:06:28:08:00 SRC=192.168.0.118 DST=224.0.0.252 LEN=61 TOS=0x00 PREC=0x00 TTL=1 ID=53591 PROTO=UDP SPT=49468 DPT=5355 LEN=41 
+[ 3028.009784] [UFW BLOCK] IN=enp0s25 OUT= MAC=33:33:00:01:00:03:80:ee:73:12:06:28:86:dd SRC=fe80:0000:0000:0000:a538:bd16:e378:427d DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=81 TC=0 HOPLIMIT=1 FLOWLBL=200867 PROTO=UDP SPT=53260 DPT=5355 LEN=41 
+[ 3028.010053] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:fc:80:ee:73:12:06:28:08:00 SRC=192.168.0.118 DST=224.0.0.252 LEN=61 TOS=0x00 PREC=0x00 TTL=1 ID=53592 PROTO=UDP SPT=53260 DPT=5355 LEN=41 
+[ 3028.031063] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:fc:80:ee:73:12:06:28:08:00 SRC=192.168.0.118 DST=224.0.0.252 LEN=61 TOS=0x00 PREC=0x00 TTL=1 ID=53592 PROTO=UDP SPT=53260 DPT=5355 LEN=41 
+[ 3029.997367] [UFW BLOCK] IN=enp0s25 OUT= MAC=33:33:00:01:00:03:80:ee:73:12:06:28:86:dd SRC=fe80:0000:0000:0000:a538:bd16:e378:427d DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=81 TC=0 HOPLIMIT=1 FLOWLBL=358177 PROTO=UDP SPT=52653 DPT=5355 LEN=41 
+[ 3029.997385] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:fc:80:ee:73:12:06:28:08:00 SRC=192.168.0.118 DST=224.0.0.252 LEN=61 TOS=0x00 PREC=0x00 TTL=1 ID=53593 PROTO=UDP SPT=52653 DPT=5355 LEN=41 
+[ 3030.018444] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:fc:80:ee:73:12:06:28:08:00 SRC=192.168.0.118 DST=224.0.0.252 LEN=61 TOS=0x00 PREC=0x00 TTL=1 ID=53593 PROTO=UDP SPT=52653 DPT=5355 LEN=41 
+[ 3032.023061] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3032.025377] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3063.236655] [UFW BLOCK] IN=enp0s25 OUT= MAC=33:33:00:01:00:03:80:ee:73:12:06:28:86:dd SRC=fe80:0000:0000:0000:a538:bd16:e378:427d DST=ff02:0000:0000:0000:0000:0000:0001:0003 LEN=81 TC=0 HOPLIMIT=1 FLOWLBL=93872 PROTO=UDP SPT=49857 DPT=5355 LEN=41 
+[ 3063.236677] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:fc:80:ee:73:12:06:28:08:00 SRC=192.168.0.118 DST=224.0.0.252 LEN=61 TOS=0x00 PREC=0x00 TTL=1 ID=53594 PROTO=UDP SPT=49857 DPT=5355 LEN=41 
+[ 3063.272020] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:fc:80:ee:73:12:06:28:08:00 SRC=192.168.0.118 DST=224.0.0.252 LEN=61 TOS=0x00 PREC=0x00 TTL=1 ID=53594 PROTO=UDP SPT=49857 DPT=5355 LEN=41 
+[ 3157.015211] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3157.016867] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3157.018057] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3282.007953] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3282.008659] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3282.029637] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3282.036559] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3406.999514] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3407.005452] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3407.045504] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3407.048519] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3532.014730] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3532.019925] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3532.159375] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3658.256268] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3658.258273] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3658.261562] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3658.308188] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3788.915167] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3788.916544] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3788.924225] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3788.929414] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3908.790990] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3908.795128] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3908.840065] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 3909.179703] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4031.957255] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4031.959617] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4031.961802] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4156.946276] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4157.083899] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4157.086455] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4157.088551] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4281.939198] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4281.943809] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4281.957972] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4281.962598] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4414.102205] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4414.103952] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4414.109622] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4414.116566] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4536.594688] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4536.595931] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4536.598721] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4536.602066] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4662.240046] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4662.242135] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4662.253255] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4662.255746] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4785.902894] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4785.913781] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4786.255825] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4915.274969] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4915.279402] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 4915.293191] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5033.284009] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5033.294015] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5033.301111] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5156.918980] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5156.922750] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5156.923436] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5281.914290] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5281.920444] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5281.927107] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5406.905340] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5406.910837] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5406.917871] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5532.596963] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5532.609435] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5532.643394] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5660.518224] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5660.524153] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5660.544154] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5789.299011] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5789.528842] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5789.532526] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5908.129087] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5908.143910] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 5908.155880] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6035.450608] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6035.458954] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6035.481638] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6156.860421] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6156.867704] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6156.873197] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6281.854843] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6281.983884] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6281.985504] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6406.848498] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6406.849696] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6406.854771] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6406.855872] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6531.851537] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6531.852195] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6531.853527] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6531.909526] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6656.839579] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6656.842680] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6656.844133] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6781.834410] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6781.837368] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6781.837406] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6907.110822] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 6907.125420] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7032.667873] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7032.681654] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7032.688588] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7160.046354] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7160.050807] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7160.066174] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7281.813454] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7282.838097] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7282.847344] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7282.878669] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7409.108077] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7409.109498] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7409.113924] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7409.239143] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7531.797056] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7531.798883] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7531.801986] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7531.846410] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7656.790506] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7656.796387] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7656.806999] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7781.785796] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7782.675836] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7782.699100] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7782.707142] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7907.062839] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7910.683425] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7910.687313] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 7910.697497] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8032.151239] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8032.151269] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8032.193197] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8032.203510] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8156.768286] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8156.768305] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8156.778106] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8156.852631] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8286.824535] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8286.830919] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8286.849691] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8406.750353] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8532.248183] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8532.248574] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8532.252327] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8532.280038] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8532.290675] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8532.290688] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8532.510404] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8657.243328] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8657.244897] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8657.247142] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8657.299342] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8782.238224] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8782.240413] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8782.243724] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8782.245399] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8907.233426] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8907.239785] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 8907.240568] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9032.225873] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9032.232092] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9032.235714] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9157.219882] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9157.225583] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9157.229713] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9286.510024] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9286.515523] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9286.518336] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9407.433770] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9407.437440] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9407.443241] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9532.201831] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9532.214767] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9532.215426] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9657.194255] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9657.202986] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9657.203415] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9708.881005] warning: `hwinfo' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+[ 9782.189891] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9782.189919] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9782.199894] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9782.237934] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9907.187592] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9907.189193] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9907.190185] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[ 9907.200836] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10032.174877] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10032.175961] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10032.177575] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10032.247849] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10157.322432] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10157.324812] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10157.327275] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10157.332577] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10282.161515] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10282.162722] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10282.170409] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10282.182481] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10407.157115] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10407.158323] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10407.187402] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10532.153556] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10534.537507] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10534.585281] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10534.616539] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10660.120292] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10660.123771] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10660.126615] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10660.137771] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10786.296404] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10786.301322] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10786.321643] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10907.138207] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10908.177247] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10908.181457] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[10908.184615] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11036.419849] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11036.425786] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11036.432006] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11036.437644] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11160.948581] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11160.952311] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11160.979406] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11282.414606] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11282.419398] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11407.134104] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11410.379225] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11410.383825] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11410.396711] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11532.266870] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11532.267240] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11532.268140] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11532.271498] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11657.093761] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11657.094935] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11657.100425] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11657.100449] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11782.228768] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11788.805827] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11788.823791] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11788.841008] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11907.082557] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11910.823271] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11910.826392] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[11910.838672] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[12032.079674] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[12032.083744] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[12032.084410] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[12157.070746] [UFW BLOCK] IN=enp0s25 OUT= MAC=00:24:1d:f1:49:2d:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[12158.276026] [UFW BLOCK] IN=enp0s25 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[12158.290261] [UFW BLOCK] IN=wlan0 OUT= MAC=01:00:5e:00:00:01:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+[12158.293585] [UFW BLOCK] IN=wlan0 OUT= MAC=f4:ec:38:ff:e5:51:60:a4:b7:e8:04:35:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
