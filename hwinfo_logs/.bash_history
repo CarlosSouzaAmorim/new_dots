@@ -304,3 +304,20 @@ ls /usr/lib/dri
 ls /usr/lib/dri | grep i915
 cd ~/_projects/new_dots/hwinfo_logs/
 exit
+cd ~/_projects/new_dots/hwinfo_logs/
+ls /usr/lib/dri | grep i915 >ls_lib_dri.log
+git add .
+git commit -m "Second try logs3"
+git push origin main
+cp ~/.bash_history .
+git add .
+git commit -m "Second try logs3"
+git push origin main
+sudo nano /etc/X11/xorg.conf.d/10-dri.conf
+sudo nano /etc/X11/xorg.conf.d/30-i915.conf
+cp /etc/X11/xorg.conf.d/30-i915.conf .
+cp /etc/X11/xorg.conf.d/10-dri.conf .
+ls
+ls /etc/X11/xorg.conf.d/
+sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf 
+exit
