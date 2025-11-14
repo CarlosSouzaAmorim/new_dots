@@ -509,3 +509,21 @@ exit
 ls
 sudo nano /boot/limine.conf
 exit
+ls /sys/class/drm/
+journalctl -b | grep -i drm 
+sudo dmesg |grep drm
+cp /boot/limine.conf ~/_projects/new_dots/hwinfo_logs/
+cd ~/_projects/new_dots/hwinfo_logs/
+ls /sys/class/drm/ > ls_sys_class_drm4.log 
+sudo dmesg |grep drm >demsg_drm1.log
+./dot_logs.sh 11
+~/dot_logs.sh 11
+ls /etc/mkinitcpio.conf
+sudo nano /etc/mkinitcpio.conf
+sudo cp /etc/mkinitcpio.conf /etc/mkinitcpio.conf.old1
+sudo nano /etc/mkinitcpio.conf
+ls /etc/modprobe.d/
+sudo nano /etc/modprobe.d/blacklist-fb.conf
+cp /etc/modprobe.d/blacklist-fb.conf .
+sudo mkinitcpio -P
+exit
