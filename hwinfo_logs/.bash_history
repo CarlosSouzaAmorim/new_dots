@@ -104,3 +104,142 @@ cd qalculate
 cd ./share/qalculate
 ls
 exit
+lsmod
+lsmod |more
+sudo modprobe i915
+ls /var/log
+ls /var/log/Xorg.0.log
+cat /var/log/Xorg.0.log
+cat /var/log/Xorg.0.log | grep video
+cat /var/log/Xorg.0.log | grep i915
+cat /var/log/Xorg.0.log | grep ideo
+cat /var/log/Xorg.0.log | grep dri
+cat /var/log/Xorg.0.log | grep DRI
+sudo modprobe va_gl
+modinfo i915
+modinfo i915 | more
+setfont -D
+setfont -s
+setfont -d
+ls
+ls /etc/modprobe.d/
+lspci
+lspci |more
+cat /var/log/Xorg.0.log | grep dri
+cat /var/log/Xorg.0.log | grep ideo
+cat /var/log/Xorg.0.log | grep dri
+cat /var/log/Xorg.0.log | grep DRI
+hwinfo
+pacman -Sy hwinfo
+sudo pacman -Sy hwinfo
+hwinfo
+hwinfo |grep video
+hwinfo |grep vga
+hwinfo |grep VGA
+hwinfo |grep displa
+hwinfo |grep ntel
+hwinfo |grep ntel|more
+sudo pacman -Syu
+sudo pacman -S xf86-video-intel mesa mesa-vdpau libva-intel-driver libva-utils
+lspci -k
+lspci -k | grep -iA3 vga
+ls
+cd MEGA
+ls
+touch ___sync_WITH_OMARCHY_nov25.log
+nano ___sync_WITH_OMARCHY_nov25.log
+ls
+megasync -d
+megasync --help
+megasync -h
+megasync /?
+ls
+cat ___sync_WITH_OMARCHY_nov25.log 
+gh auth login
+cd ~
+ls
+cd _projects/
+ls
+mkdir
+mkdir new_dots
+gh repo create new_dots --public --description "Dot files and configs for linux"
+gh auth login
+gh repo create new_dots --public --description "Dot files and configs for linux"
+ls
+cd new_dots/
+echo "# new_dots" >> README.md
+git init
+git add README.md
+git commit -m "Premero"
+git config --global user.email "carlos.souza.amorim@gmail.com"
+git config --global user.name "CarlosSouzaAmorim"
+git commit -m "Premero"
+git branch -M main
+git remote add origin https://github.com/CarlosSouzaAmorim/new_dots.git
+git push -u origin main
+ls
+mkdir hwinfo_logs
+cd hwinfo_logs/
+lspci -k | grep -iA3 vga > lspci_vga.log
+hwinfo > hwinfo1.log
+cp /var/log/Xorg.0.log .
+ls
+sudo dmesg > dmesg1.log
+ls
+cp ~/.bash_history .
+ls
+ls -a
+git commit -m "New initial logs"
+git add .
+git commit -m "New initial logs"
+cd ..
+ls
+git push origin main
+cd hwinfo_logs/
+lsmod | grep i915
+lsmod | grep i915 > lsmod_i915.log
+cat /var/log/Xorg.0.log | grep EE
+cat /var/log/Xorg.0.log | grep EE >var_log_Xorg_EE.log
+git add .
+git commit -m "New partial logs"
+git push origin main
+hyprctl monitors
+exit
+links2
+pacman --version
+pacman --help
+pacman -S
+sudo pacman -S
+sudo pacman -S -h
+sudo pacman -Sy
+sudo pacman -i links2
+sudo pacman -Si links2
+sudo pacman -Si links
+sudo pacman -S links
+links http://links.twibright.com/
+lspci
+lsusb
+lsusb --help
+lspci --help
+lspci -t
+lspci -k
+dmesg
+sudo dmesg
+sudo dmesg | grep vga
+sudo dmesg | grep i915
+sudo dmesg | grep g45
+sudo dmesg | grep panic
+links http://duckduckgo.com/
+sudo dmesg | grep panic
+ls
+sudo dmesg | grep g45
+exit
+sudo dmesg | grep panic
+sudo dmesg | grep g45
+sudo dmesg | grep i915
+lspci -k
+hyprctl monitors
+exit
+sudo nano /etc/X11/xorg.conf.d/20-intel.conf 
+sudo nano /boot/limine.conf
+exit
