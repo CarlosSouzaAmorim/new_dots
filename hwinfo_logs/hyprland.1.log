@@ -1,0 +1,63 @@
+Welcome to Hyprland!
+[LOG] Instance Signature: 967c3c7404d4fa00234e29c70df3e263386d2597_1763123739_530668742
+[LOG] Runtime directory: /run/user/1000/hypr/967c3c7404d4fa00234e29c70df3e263386d2597_1763123739_530668742
+[LOG] Hyprland PID: 1756
+[LOG] ===== SYSTEM INFO: =====
+[LOG] System name: Linux
+[LOG] Node name: omarchy
+[LOG] Release: 6.17.7-arch1-1
+[LOG] Version: #1 SMP PREEMPT_DYNAMIC Sun, 02 Nov 2025 17:27:22 +0000
+
+
+[LOG] GPU information:
+00:02.0 VGA compatible controller [0300]: Intel Corporation 4 Series Chipset Integrated Graphics Controller [8086:2e12] (rev 03) (prog-if 00 [VGA controller])
+00:02.1 Display controller [0380]: Intel Corporation 4 Series Chipset Integrated Graphics Controller [8086:2e13] (rev 03)
+
+
+[LOG] os-release:
+NAME="Arch Linux"
+PRETTY_NAME="Arch Linux"
+ID=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://archlinux.org/"
+DOCUMENTATION_URL="https://wiki.archlinux.org/"
+SUPPORT_URL="https://bbs.archlinux.org/"
+BUG_REPORT_URL="https://gitlab.archlinux.org/groups/archlinux/-/issues"
+PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
+LOGO=archlinux-logo
+[LOG] ========================
+
+
+
+[1;32m[INFO] If you are crashing, or encounter any bugs, please consult https://wiki.hypr.land/Crashes-and-Bugs/
+
+[0m
+[LOG] 
+Current splash: The AUR packages always work, except for the times they don't.
+
+
+[LOG] Old rlimit: soft -> 1024, hard -> 524288
+[LOG] New rlimit: soft -> 524288, hard -> 524288
+[LOG] Creating the EventLoopManager!
+[LOG] Creating the HookSystem!
+[LOG] Creating the KeybindManager!
+[LOG] Creating the AnimationManager!
+[LOG] Creating the DynamicPermissionManager!
+[LOG] Creating the ConfigManager!
+[LOG] Using config: /home/carlos/.config/hypr/hyprland.conf
+[1;32m[INFO] !!!!HEY YOU, YES YOU!!!!: further logs to stdout / logfile are disabled by default. BEFORE SENDING THIS LOG, ENABLE THEM. Use debug:disable_logs = false to do so: https://wiki.hypr.land/Configuring/Variables/#debug[0m
+[LOG] Creating the CHyprError!
+[LOG] Creating the LayoutManager!
+[LOG] Creating the TokenManager!
+[LOG] [hookSystem] New hook event registered: preConfigReload
+[LOG] Using config: /home/carlos/.config/hypr/hyprland.conf
+[LOG] CWindowRule: direct prop rule found, rewritten nofocus -> prop nofocus
+[LOG] CWindowRule: direct prop rule found, rewritten noscreenshare -> prop noscreenshare
+[LOG] CWindowRule: direct prop rule found, rewritten noscreenshare -> prop noscreenshare
+[LOG] CWindowRule: direct prop rule found, rewritten nofocus -> prop nofocus
+[LOG] CWindowRule: direct prop rule found, rewritten rounding 8 -> prop rounding 8
+[LOG] CWindowRule: direct prop rule found, rewritten nodim -> prop nodim
+[LOG] CWindowRule: direct prop rule found, rewritten scrolltouchpad 1.5 -> prop scrolltouchpad 1.5
+[LOG] CWindowRule: direct prop rule found, rewritten scrolltouchpad 0.2 -> prop scrolltouchpad 0.2
+Hyprland has crashed :( Consult the crash report at /home/carlos/.cache/hyprland/hyprlandCrashReport1756.txt for more information.

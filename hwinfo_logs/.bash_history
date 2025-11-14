@@ -541,3 +541,41 @@ sudo nano /boot/limine.conf
 exit
 sudo nano /boot/limine.conf
 exit
+ls -l /sys/class/drm
+sudo dmesg | grep -E "drm|fb"
+cd ~/_projects/new_dots/hwinfo_logs/
+sudo dmesg | grep -E "drm|fb" > dmesg_E_drm_fb_2.log
+ls -l /sys/class/drm > ls_sys_class_drm_4.log
+sudo dmesg | egrep -i 'simpledrm'
+sudo dmesg | egrep -i 'simple-framebuffer'
+sudo dmesg | egrep -i 'simplefb'
+sudo dmesg | egrep -i 'efifb'
+sudo dmesg | grep -E 'simpledrm|simple-framebuffer|simplefb|efifb'
+sudo dmesg | grep -E 'simpledrm|simple-framebuffer|simplefb|efifb' > dmesg_E_allfb_1.log
+sudo dmesg | grep -E 'i915'
+sudo dmesg | grep -E 'i915' > dmesg_E_i915_7.log
+hyprctl monitors
+sudo modetest -M i915 -s VGA-1@49:1920x1080
+nano  ~/.config/hypr/monitors.conf
+~/dot_logs.sh 13
+exit
+echo $XDG_RUNTIME_DIR
+echo $(id -u)
+export XDG_RUNTIME_DIR=/run/user/$(id -u)
+mkdir -p $XDG_RUNTIME_DIR
+dbus-run-session -- hyprland
+cat ~/.cache/hyprland/hyprlandCrashReport1354.txt
+cpdfsdft ~/.cache/hyprland/hyprlandCrashReport1354.txt
+cd ~/_projects/new_dots/hwinfo_logs/
+cp ~/.cache/hyprland/hyprlandCrashReport1354.txt
+cp ~/.cache/hyprland/hyprlandCrashReport1354.txt .
+dbus-run-session -- bash -c "hyprland 2>&1 | tee ./hyprland.1.log
+ls
+dbus-run-session -- bash -c "hyprland 2>&1 | tee ./hyprland.1.log"
+ls
+cat hyprland.1.log
+wlr-randr
+sudo pacman -S weston
+dbus-run-session -- weston
+ls
+exit
