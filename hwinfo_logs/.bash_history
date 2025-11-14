@@ -339,3 +339,22 @@ sudo dmesg >dmesg5.log
 cat /var/log/Xorg.0.log | grep EE >var_log_Xorg_EE_5.log
 cp /var/log/Xorg.0.log var_log_Xorg_5.log
 exit
+cd ~/_projects/new_dots/hwinfo_logs/
+cp ~/.bash_history .
+git add .
+git commit -m "Second try logs5"
+exit
+cd ~/_projects/new_dots/hwinfo_logs/
+git push origin main
+sudo pacman -S mesa-amber
+ls -lh /usr/lib/dri 
+exit
+cd ~/_projects/new_dots/hwinfo_logs/
+cat /var/log/Xorg.0.log | grep -iE "(EE|i915|intel)"
+cat /var/log/Xorg.0.log | grep -iE "(EE|i915|intel)" > var_log_Xorg_EE_i915_intel_6.log
+cp /var/log/Xorg.0.log var_log_Xorg_6.log
+cat /var/log/Xorg.0.log | grep EE >var_log_Xorg_EE_6.log
+sudo dmesg >dmesg6.log
+sudo dmesg | grep i915 > dmesg_i915_6.log
+cp ~/.bash_history .
+exit
