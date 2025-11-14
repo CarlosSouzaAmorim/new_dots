@@ -321,3 +321,21 @@ ls
 ls /etc/X11/xorg.conf.d/
 sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf 
 exit
+cd ~/_projects/new_dots/hwinfo_logs/
+cp ~/.bash_history .
+git add .
+git commit -m "Second try logs5"
+git push origin main
+exit
+cd ~/_projects/new_dots/hwinfo_logs/
+cat /var/log/Xorg.0.log | grep EE
+sudo dmesg | grep i915
+sudo nano /etc/X11/xorg.conf.d/20-intel.conf 
+exit
+cd ~/_projects/new_dots/hwinfo_logs/
+ls /usr/lib/dri >ls_lib_dri.log
+sudo dmesg | grep i915 > dmesg_i915_5.log
+sudo dmesg >dmesg5.log
+cat /var/log/Xorg.0.log | grep EE >var_log_Xorg_EE_5.log
+cp /var/log/Xorg.0.log var_log_Xorg_5.log
+exit

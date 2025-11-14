@@ -1,0 +1,383 @@
+[    20.359] (--) Log file renamed from "/var/log/Xorg.pid-735.log" to "/var/log/Xorg.0.log"
+[    20.389] 
+X.Org X Server 1.21.1.20
+X Protocol Version 11, Revision 0
+[    20.389] Current Operating System: Linux omarchy 6.17.7-arch1-1 #1 SMP PREEMPT_DYNAMIC Sun, 02 Nov 2025 17:27:22 +0000 x86_64
+[    20.389] Kernel command line: quiet splash cryptdevice=PARTUUID=265cc117-02:root root=/dev/mapper/root zswap.enabled=0 rootflags=subvol=@ rw rootfstype=btrfs
+[    20.389]  
+[    20.389] Current version of pixman: 0.46.4
+[    20.389] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    20.389] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    20.389] (==) Log file: "/var/log/Xorg.0.log", Time: Fri Nov 14 04:48:47 2025
+[    20.393] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    20.393] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    20.394] (==) No Layout section.  Using the first Screen section.
+[    20.394] (==) No screen section available. Using defaults.
+[    20.394] (**) |-->Screen "Default Screen Section" (0)
+[    20.394] (**) |   |-->Monitor "<default monitor>"
+[    20.394] (==) No device specified for screen "Default Screen Section".
+	Using the first device section listed.
+[    20.394] (**) |   |-->Device "Intel Graphics"
+[    20.394] (**) |   |-->GPUDevice "Intel G45"
+[    20.394] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    20.394] (**) Allowing byte-swapped clients
+[    20.394] (==) Automatically adding devices
+[    20.394] (==) Automatically enabling devices
+[    20.394] (==) Automatically adding GPU devices
+[    20.394] (==) Automatically binding GPU devices
+[    20.394] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    20.396] (WW) The directory "/usr/share/fonts/misc" does not exist.
+[    20.396] 	Entry deleted from font path.
+[    20.398] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/TTF".
+[    20.398] 	Entry deleted from font path.
+[    20.398] 	(Run 'mkfontdir' on "/usr/share/fonts/TTF").
+[    20.398] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[    20.398] 	Entry deleted from font path.
+[    20.398] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[    20.398] 	Entry deleted from font path.
+[    20.398] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[    20.398] 	Entry deleted from font path.
+[    20.398] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[    20.398] 	Entry deleted from font path.
+[    20.398] (==) FontPath set to:
+	
+[    20.398] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    20.398] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    20.398] (II) Module ABI versions:
+[    20.398] 	X.Org ANSI C Emulation: 0.4
+[    20.398] 	X.Org Video Driver: 25.2
+[    20.398] 	X.Org XInput driver : 24.4
+[    20.398] 	X.Org Server Extension : 10.0
+[    20.399] (++) using VT number 2
+
+[    20.399] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    20.400] (II) xfree86: Adding drm device (/dev/dri/card1)
+[    20.400] (II) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/drm/card1
+[    20.431] (--) PCI:*(0@0:2:0) 8086:2e12:17aa:3048 rev 3, Mem @ 0xfc000000/4194304, 0xe0000000/268435456, I/O @ 0x00001c70/8, BIOS @ 0x????????/131072
+[    20.431] (--) PCI: (0@0:2:1) 8086:2e13:17aa:3048 rev 3, Mem @ 0xfc400000/1048576
+[    20.431] (II) "glx" will be loaded by default.
+[    20.431] (II) LoadModule: "dri"
+[    20.431] (II) Module "dri" already built-in
+[    20.431] (II) LoadModule: "dri2"
+[    20.431] (II) Module "dri2" already built-in
+[    20.431] (II) LoadModule: "glx"
+[    20.447] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    20.578] (II) Module glx: vendor="X.Org Foundation"
+[    20.578] 	compiled for 1.21.1.20, module version = 1.0.0
+[    20.578] 	ABI class: X.Org Server Extension, version 10.0
+[    20.578] (II) LoadModule: "intel"
+[    20.578] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[    20.612] (II) Module intel: vendor="X.Org Foundation"
+[    20.612] 	compiled for 1.21.1.16, module version = 2.99.917
+[    20.612] 	Module class: X.Org Video Driver
+[    20.612] 	ABI class: X.Org Video Driver, version 25.2
+[    20.612] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+	i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+	915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+	Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+	GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+[    20.612] (II) intel: Driver for Intel(R) HD Graphics
+[    20.612] (II) intel: Driver for Intel(R) Iris(TM) Graphics
+[    20.612] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics
+[    20.613] (II) intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 0
+[    20.613] (II) intel(0): SNA compiled from 2.99.917-939-g4a64400e
+[    20.613] (--) intel(0): Integrated Graphics Chipset: Intel(R) Q45/Q43
+[    20.613] (--) intel(0): CPU: x86-64, sse2, sse3, ssse3, sse4.1; using a maximum of 2 threads
+[    20.613] (II) intel(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    20.613] (==) intel(0): Depth 24, (--) framebuffer bpp 32
+[    20.613] (==) intel(0): RGB weight 888
+[    20.613] (==) intel(0): Default visual is TrueColor
+[    20.613] (**) intel(0): Option "DRI" "2"
+[    20.613] (**) intel(0): Option "TearFree" "true"
+[    20.615] (II) intel(0): Output VGA1 has no monitor section
+[    20.615] (II) intel(0): Enabled output VGA1
+[    20.615] (II) intel(0): Output HDMI1 has no monitor section
+[    20.615] (II) intel(0): Enabled output HDMI1
+[    20.615] (II) intel(0): Output DP1 has no monitor section
+[    20.615] (II) intel(0): Enabled output DP1
+[    20.615] (--) intel(0): Using a maximum size of 256x256 for hardware cursors
+[    20.616] (II) intel(0): Output VIRTUAL1 has no monitor section
+[    20.616] (II) intel(0): Enabled output VIRTUAL1
+[    20.616] (--) intel(0): Output HDMI1 using initial mode 1920x1080 on crtc 0
+[    20.616] (**) intel(0): TearFree enabled
+[    20.616] (==) intel(0): Using gamma correction (1.0, 1.0, 1.0)
+[    20.616] (==) intel(0): DPI set to (96, 96)
+[    20.616] (II) Loading sub module "dri3"
+[    20.616] (II) LoadModule: "dri3"
+[    20.616] (II) Module "dri3" already built-in
+[    20.616] (II) Loading sub module "dri2"
+[    20.616] (II) LoadModule: "dri2"
+[    20.616] (II) Module "dri2" already built-in
+[    20.616] (II) Loading sub module "present"
+[    20.616] (II) LoadModule: "present"
+[    20.616] (II) Module "present" already built-in
+[    20.616] (II) intel(0): SNA initialized with Eaglelake (gen4.5) backend
+[    20.616] (==) intel(0): Backing store enabled
+[    20.616] (==) intel(0): Silken mouse enabled
+[    20.616] (II) intel(0): HW Cursor enabled
+[    20.621] (==) intel(0): DPMS enabled
+[    20.621] (==) intel(0): Display hotplug detection enabled
+[    20.621] (II) intel(0): [XvMC] xvmc_vld driver initialized.
+[    20.621] (II) intel(0): [DRI2] Setup complete
+[    20.621] (II) intel(0): [DRI2]   DRI driver: i965
+[    20.621] (II) intel(0): [DRI2]   VDPAU driver: va_gl
+[    20.621] (II) intel(0): direct rendering: DRI2 enabled
+[    20.621] (II) intel(0): hardware support for Present enabled
+[    20.621] (II) Initializing extension Generic Event Extension
+[    20.621] (II) Initializing extension SHAPE
+[    20.627] (II) Initializing extension MIT-SHM
+[    20.627] (II) Initializing extension XInputExtension
+[    20.627] (II) Initializing extension XTEST
+[    20.627] (II) Initializing extension BIG-REQUESTS
+[    20.627] (II) Initializing extension SYNC
+[    20.628] (II) Initializing extension XKEYBOARD
+[    20.628] (II) Initializing extension XC-MISC
+[    20.628] (II) Initializing extension SECURITY
+[    20.629] (II) Initializing extension XFIXES
+[    20.629] (II) Initializing extension RENDER
+[    20.629] (II) Initializing extension RANDR
+[    20.629] (II) Initializing extension COMPOSITE
+[    20.629] (II) Initializing extension DAMAGE
+[    20.629] (II) Initializing extension MIT-SCREEN-SAVER
+[    20.630] (II) Initializing extension DOUBLE-BUFFER
+[    20.630] (II) Initializing extension RECORD
+[    20.630] (II) Initializing extension DPMS
+[    20.638] (II) Initializing extension Present
+[    20.641] (II) Initializing extension DRI3
+[    20.641] (II) Initializing extension X-Resource
+[    20.641] (II) Initializing extension XVideo
+[    20.641] (II) Initializing extension XVideo-MotionCompensation
+[    20.641] (II) Initializing extension GLX
+[    20.646] (EE) AIGLX error: dlopen of /usr/lib/dri/i965_dri.so failed (/usr/lib/dri/i965_dri.so: cannot open shared object file: No such file or directory)
+[    20.646] (EE) AIGLX error: unable to load driver i965
+[    22.606] (II) IGLX: Loaded and initialized swrast
+[    22.606] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[    22.606] (II) Initializing extension XFree86-VidModeExtension
+[    22.607] (II) Initializing extension XFree86-DGA
+[    22.607] (II) Initializing extension XFree86-DRI
+[    22.607] (II) Initializing extension DRI2
+[    22.616] (II) intel(0): switch to mode 1920x1080@60.0 on HDMI1 using crtc 0, position (0, 0), rotation normal, reflection none
+[    22.628] (II) intel(0): Setting screen physical size to 508 x 285
+[    22.744] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[    22.803] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    22.803] (**) Power Button: Applying InputClass "system-keyboard"
+[    22.803] (II) LoadModule: "libinput"
+[    22.803] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    22.817] (II) Module libinput: vendor="X.Org Foundation"
+[    22.817] 	compiled for 1.21.1.13, module version = 1.5.0
+[    22.817] 	Module class: X.Org XInput Driver
+[    22.817] 	ABI class: X.Org XInput driver, version 24.4
+[    22.817] (II) Using input driver 'libinput' for 'Power Button'
+[    22.817] (**) Power Button: always reports core events
+[    22.817] (**) Option "Device" "/dev/input/event1"
+[    22.828] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    22.828] (II) event1  - Power Button: device is a keyboard
+[    22.828] (II) event1  - Power Button: device removed
+[    22.834] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[    22.834] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    22.834] (**) Option "xkb_model" "abnt2"
+[    22.834] (**) Option "xkb_layout" "br"
+[    22.834] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    22.879] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    22.879] (II) event1  - Power Button: device is a keyboard
+[    22.880] (II) config/udev: Adding input device Video Bus (/dev/input/event7)
+[    22.880] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    22.880] (**) Video Bus: Applying InputClass "system-keyboard"
+[    22.880] (II) Using input driver 'libinput' for 'Video Bus'
+[    22.880] (**) Video Bus: always reports core events
+[    22.880] (**) Option "Device" "/dev/input/event7"
+[    22.883] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[    22.883] (II) event7  - Video Bus: device is a keyboard
+[    22.883] (II) event7  - Video Bus: device removed
+[    22.894] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input8/event7"
+[    22.894] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    22.894] (**) Option "xkb_model" "abnt2"
+[    22.894] (**) Option "xkb_layout" "br"
+[    22.894] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    22.895] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[    22.895] (II) event7  - Video Bus: device is a keyboard
+[    22.896] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    22.896] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    22.897] (**) Power Button: Applying InputClass "system-keyboard"
+[    22.897] (II) Using input driver 'libinput' for 'Power Button'
+[    22.897] (**) Power Button: always reports core events
+[    22.897] (**) Option "Device" "/dev/input/event0"
+[    22.898] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    22.898] (II) event0  - Power Button: device is a keyboard
+[    22.898] (II) event0  - Power Button: device removed
+[    22.902] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/PNP0C0C:00/input/input0/event0"
+[    22.902] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[    22.902] (**) Option "xkb_model" "abnt2"
+[    22.902] (**) Option "xkb_layout" "br"
+[    22.902] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    22.903] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    22.903] (II) event0  - Power Button: device is a keyboard
+[    22.906] (II) config/udev: Adding input device USB OPTICAL MOUSE  (/dev/input/event2)
+[    22.906] (**) USB OPTICAL MOUSE : Applying InputClass "libinput pointer catchall"
+[    22.906] (II) Using input driver 'libinput' for 'USB OPTICAL MOUSE '
+[    22.906] (**) USB OPTICAL MOUSE : always reports core events
+[    22.906] (**) Option "Device" "/dev/input/event2"
+[    22.959] (II) event2  - USB OPTICAL MOUSE : is tagged by udev as: Mouse
+[    22.959] (II) event2  - USB OPTICAL MOUSE : device is a pointer
+[    22.959] (II) event2  - USB OPTICAL MOUSE : device removed
+[    22.967] (II) libinput: USB OPTICAL MOUSE : Step value 0 was provided, libinput Fallback acceleration function is used.
+[    22.967] (II) libinput: USB OPTICAL MOUSE : Step value 0 was provided, libinput Fallback acceleration function is used.
+[    22.967] (II) libinput: USB OPTICAL MOUSE : Step value 0 was provided, libinput Fallback acceleration function is used.
+[    22.967] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1:1.0/0003:4E53:5407.0001/input/input2/event2"
+[    22.967] (II) XINPUT: Adding extended input device "USB OPTICAL MOUSE " (type: MOUSE, id 9)
+[    22.967] (**) Option "AccelerationScheme" "none"
+[    22.967] (**) USB OPTICAL MOUSE : (accel) selected scheme none/0
+[    22.967] (**) USB OPTICAL MOUSE : (accel) acceleration factor: 2.000
+[    22.967] (**) USB OPTICAL MOUSE : (accel) acceleration threshold: 4
+[    23.020] (II) event2  - USB OPTICAL MOUSE : is tagged by udev as: Mouse
+[    23.020] (II) event2  - USB OPTICAL MOUSE : device is a pointer
+[    23.022] (II) config/udev: Adding input device USB OPTICAL MOUSE  (/dev/input/mouse0)
+[    23.022] (II) No input driver specified, ignoring this device.
+[    23.022] (II) This device may have been added with another device file.
+[    23.023] (II) config/udev: Adding input device USB OPTICAL MOUSE  Keyboard (/dev/input/event3)
+[    23.023] (**) USB OPTICAL MOUSE  Keyboard: Applying InputClass "libinput keyboard catchall"
+[    23.023] (**) USB OPTICAL MOUSE  Keyboard: Applying InputClass "system-keyboard"
+[    23.023] (II) Using input driver 'libinput' for 'USB OPTICAL MOUSE  Keyboard'
+[    23.023] (**) USB OPTICAL MOUSE  Keyboard: always reports core events
+[    23.023] (**) Option "Device" "/dev/input/event3"
+[    23.025] (II) event3  - USB OPTICAL MOUSE  Keyboard: is tagged by udev as: Keyboard
+[    23.026] (II) event3  - USB OPTICAL MOUSE  Keyboard: device is a keyboard
+[    23.026] (II) event3  - USB OPTICAL MOUSE  Keyboard: device removed
+[    23.031] (II) libinput: USB OPTICAL MOUSE  Keyboard: needs a virtual subdevice
+[    23.031] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1:1.1/0003:4E53:5407.0002/input/input3/event3"
+[    23.031] (II) XINPUT: Adding extended input device "USB OPTICAL MOUSE  Keyboard" (type: MOUSE, id 10)
+[    23.031] (**) Option "AccelerationScheme" "none"
+[    23.031] (**) USB OPTICAL MOUSE  Keyboard: (accel) selected scheme none/0
+[    23.031] (**) USB OPTICAL MOUSE  Keyboard: (accel) acceleration factor: 2.000
+[    23.031] (**) USB OPTICAL MOUSE  Keyboard: (accel) acceleration threshold: 4
+[    23.033] (II) event3  - USB OPTICAL MOUSE  Keyboard: is tagged by udev as: Keyboard
+[    23.033] (II) event3  - USB OPTICAL MOUSE  Keyboard: device is a keyboard
+[    23.034] (II) config/udev: Adding input device HDA Intel Front Mic (/dev/input/event9)
+[    23.034] (II) No input driver specified, ignoring this device.
+[    23.034] (II) This device may have been added with another device file.
+[    23.035] (II) config/udev: Adding input device HDA Intel Rear Mic (/dev/input/event10)
+[    23.035] (II) No input driver specified, ignoring this device.
+[    23.035] (II) This device may have been added with another device file.
+[    23.036] (II) config/udev: Adding input device HDA Intel Line (/dev/input/event11)
+[    23.036] (II) No input driver specified, ignoring this device.
+[    23.036] (II) This device may have been added with another device file.
+[    23.037] (II) config/udev: Adding input device HDA Intel Line Out (/dev/input/event12)
+[    23.037] (II) No input driver specified, ignoring this device.
+[    23.037] (II) This device may have been added with another device file.
+[    23.038] (II) config/udev: Adding input device HDA Intel Front Headphone (/dev/input/event13)
+[    23.038] (II) No input driver specified, ignoring this device.
+[    23.038] (II) This device may have been added with another device file.
+[    23.039] (II) config/udev: Adding input device SEM USB Keyboard (/dev/input/event4)
+[    23.039] (**) SEM USB Keyboard: Applying InputClass "libinput keyboard catchall"
+[    23.039] (**) SEM USB Keyboard: Applying InputClass "system-keyboard"
+[    23.039] (II) Using input driver 'libinput' for 'SEM USB Keyboard'
+[    23.039] (**) SEM USB Keyboard: always reports core events
+[    23.039] (**) Option "Device" "/dev/input/event4"
+[    23.041] (II) event4  - SEM USB Keyboard: is tagged by udev as: Keyboard
+[    23.042] (II) event4  - SEM USB Keyboard: device is a keyboard
+[    23.042] (II) event4  - SEM USB Keyboard: device removed
+[    23.053] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.1/usb6/6-1/6-1:1.0/0003:1A2C:2124.0003/input/input5/event4"
+[    23.053] (II) XINPUT: Adding extended input device "SEM USB Keyboard" (type: KEYBOARD, id 11)
+[    23.053] (**) Option "xkb_model" "abnt2"
+[    23.053] (**) Option "xkb_layout" "br"
+[    23.053] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    23.055] (II) event4  - SEM USB Keyboard: is tagged by udev as: Keyboard
+[    23.055] (II) event4  - SEM USB Keyboard: device is a keyboard
+[    23.057] (II) config/udev: Adding input device SEM USB Keyboard Consumer Control (/dev/input/event5)
+[    23.057] (**) SEM USB Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    23.057] (**) SEM USB Keyboard Consumer Control: Applying InputClass "system-keyboard"
+[    23.057] (II) Using input driver 'libinput' for 'SEM USB Keyboard Consumer Control'
+[    23.057] (**) SEM USB Keyboard Consumer Control: always reports core events
+[    23.057] (**) Option "Device" "/dev/input/event5"
+[    23.059] (II) event5  - SEM USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[    23.060] (II) event5  - SEM USB Keyboard Consumer Control: device is a keyboard
+[    23.060] (II) event5  - SEM USB Keyboard Consumer Control: device removed
+[    23.066] (II) libinput: SEM USB Keyboard Consumer Control: needs a virtual subdevice
+[    23.066] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.1/usb6/6-1/6-1:1.1/0003:1A2C:2124.0004/input/input6/event5"
+[    23.066] (II) XINPUT: Adding extended input device "SEM USB Keyboard Consumer Control" (type: MOUSE, id 12)
+[    23.066] (**) Option "AccelerationScheme" "none"
+[    23.066] (**) SEM USB Keyboard Consumer Control: (accel) selected scheme none/0
+[    23.066] (**) SEM USB Keyboard Consumer Control: (accel) acceleration factor: 2.000
+[    23.066] (**) SEM USB Keyboard Consumer Control: (accel) acceleration threshold: 4
+[    23.068] (II) event5  - SEM USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[    23.068] (II) event5  - SEM USB Keyboard Consumer Control: device is a keyboard
+[    23.070] (II) config/udev: Adding input device SEM USB Keyboard System Control (/dev/input/event6)
+[    23.070] (**) SEM USB Keyboard System Control: Applying InputClass "libinput keyboard catchall"
+[    23.070] (**) SEM USB Keyboard System Control: Applying InputClass "system-keyboard"
+[    23.070] (II) Using input driver 'libinput' for 'SEM USB Keyboard System Control'
+[    23.070] (**) SEM USB Keyboard System Control: always reports core events
+[    23.070] (**) Option "Device" "/dev/input/event6"
+[    23.072] (II) event6  - SEM USB Keyboard System Control: is tagged by udev as: Keyboard
+[    23.072] (II) event6  - SEM USB Keyboard System Control: device is a keyboard
+[    23.072] (II) event6  - SEM USB Keyboard System Control: device removed
+[    23.082] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.1/usb6/6-1/6-1:1.1/0003:1A2C:2124.0004/input/input7/event6"
+[    23.082] (II) XINPUT: Adding extended input device "SEM USB Keyboard System Control" (type: KEYBOARD, id 13)
+[    23.082] (**) Option "xkb_model" "abnt2"
+[    23.082] (**) Option "xkb_layout" "br"
+[    23.082] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    23.084] (II) event6  - SEM USB Keyboard System Control: is tagged by udev as: Keyboard
+[    23.084] (II) event6  - SEM USB Keyboard System Control: device is a keyboard
+[    23.085] (II) config/udev: Adding input device PC Speaker (/dev/input/event8)
+[    23.085] (II) No input driver specified, ignoring this device.
+[    23.085] (II) This device may have been added with another device file.
+[    23.110] (**) USB OPTICAL MOUSE  Keyboard: Applying InputClass "libinput keyboard catchall"
+[    23.111] (**) USB OPTICAL MOUSE  Keyboard: Applying InputClass "system-keyboard"
+[    23.111] (II) Using input driver 'libinput' for 'USB OPTICAL MOUSE  Keyboard'
+[    23.111] (**) USB OPTICAL MOUSE  Keyboard: always reports core events
+[    23.111] (**) Option "Device" "/dev/input/event3"
+[    23.111] (II) libinput: USB OPTICAL MOUSE  Keyboard: is a virtual subdevice
+[    23.111] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1:1.1/0003:4E53:5407.0002/input/input3/event3"
+[    23.111] (II) XINPUT: Adding extended input device "USB OPTICAL MOUSE  Keyboard" (type: KEYBOARD, id 14)
+[    23.111] (**) Option "xkb_model" "abnt2"
+[    23.111] (**) Option "xkb_layout" "br"
+[    23.111] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    23.111] (**) SEM USB Keyboard Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    23.111] (**) SEM USB Keyboard Consumer Control: Applying InputClass "system-keyboard"
+[    23.111] (II) Using input driver 'libinput' for 'SEM USB Keyboard Consumer Control'
+[    23.111] (**) SEM USB Keyboard Consumer Control: always reports core events
+[    23.111] (**) Option "Device" "/dev/input/event5"
+[    23.111] (II) libinput: SEM USB Keyboard Consumer Control: is a virtual subdevice
+[    23.111] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.1/usb6/6-1/6-1:1.1/0003:1A2C:2124.0004/input/input6/event5"
+[    23.111] (II) XINPUT: Adding extended input device "SEM USB Keyboard Consumer Control" (type: KEYBOARD, id 15)
+[    23.111] (**) Option "xkb_model" "abnt2"
+[    23.111] (**) Option "xkb_layout" "br"
+[    23.111] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    23.618] (II) event1  - Power Button: device removed
+[    23.623] (II) event7  - Video Bus: device removed
+[    23.637] (II) event0  - Power Button: device removed
+[    23.645] (II) event2  - USB OPTICAL MOUSE : device removed
+[    23.665] (II) event4  - SEM USB Keyboard: device removed
+[    23.669] (II) event6  - SEM USB Keyboard System Control: device removed
+[    23.673] (II) event3  - USB OPTICAL MOUSE  Keyboard: device removed
+[    23.677] (II) event5  - SEM USB Keyboard Consumer Control: device removed
+[    45.348] (II) intel(0): switch to mode 1920x1080@60.0 on HDMI1 using crtc 0, position (0, 0), rotation normal, reflection none
+[    45.532] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    45.532] (II) event1  - Power Button: device is a keyboard
+[    45.534] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[    45.534] (II) event7  - Video Bus: device is a keyboard
+[    45.535] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    45.535] (II) event0  - Power Button: device is a keyboard
+[    45.589] (II) event2  - USB OPTICAL MOUSE : is tagged by udev as: Mouse
+[    45.589] (II) event2  - USB OPTICAL MOUSE : device is a pointer
+[    45.592] (II) event3  - USB OPTICAL MOUSE  Keyboard: is tagged by udev as: Keyboard
+[    45.592] (II) event3  - USB OPTICAL MOUSE  Keyboard: device is a keyboard
+[    45.594] (II) event4  - SEM USB Keyboard: is tagged by udev as: Keyboard
+[    45.594] (II) event4  - SEM USB Keyboard: device is a keyboard
+[    45.597] (II) event5  - SEM USB Keyboard Consumer Control: is tagged by udev as: Keyboard
+[    45.597] (II) event5  - SEM USB Keyboard Consumer Control: device is a keyboard
+[    45.599] (II) event6  - SEM USB Keyboard System Control: is tagged by udev as: Keyboard
+[    45.599] (II) event6  - SEM USB Keyboard System Control: device is a keyboard
+[    46.372] (II) event1  - Power Button: device removed
+[    46.376] (II) event7  - Video Bus: device removed
+[    46.384] (II) event0  - Power Button: device removed
+[    46.388] (II) event2  - USB OPTICAL MOUSE : device removed
+[    46.397] (II) event4  - SEM USB Keyboard: device removed
+[    46.401] (II) event6  - SEM USB Keyboard System Control: device removed
+[    46.405] (II) event3  - USB OPTICAL MOUSE  Keyboard: device removed
+[    46.409] (II) event5  - SEM USB Keyboard Consumer Control: device removed

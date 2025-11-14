@@ -1,0 +1,6 @@
+[    2.140806] i915 0000:00:02.0: [drm] Found g45 (device ID 2e12) integrated display version 4.00 stepping N/A
+[    2.158392] i915 0000:00:02.0: vgaarb: deactivate vga console
+[    2.178650] i915 0000:00:02.0: [drm] Registered 2 planes with drm panic
+[    2.178654] [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1
+[    2.443405] fbcon: i915drmfb (fb0) is primary device
+[    2.443410] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
