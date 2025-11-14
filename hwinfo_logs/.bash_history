@@ -455,3 +455,50 @@ cd ~/_projects/new_dots/hwinfo_logs/
 pacman -Ss i915 > pacman_Ss_i915.log
 sudo pacman -Sy mesa-legacy-g45
 exit
+cd ~/_projects/new_dots/hwinfo_logs/
+cp ~/.bash_history .
+cat ~/.bash_history | grep git
+cd
+ls
+nano dot_logs.sh
+chmod +x dot_logs.sh 
+./dot_logs.sh
+cat ~/.bash_history | grep git >> dot_logs.sh 
+nano dot_logs.sh
+echo cd ~/_projects/new_dots/hwinfo_logs/ >>dot_logs.sh 
+nano dot_logs.sh
+nano dot_logs.sh 8
+nano dot_logs.sh
+./dot_logs.sh 8
+exit
+cd ~/_projects/new_dots/hwinfo_logs/
+journalctl -b | grep -i connec
+sudo modetest -M i915 -c
+sudo modetest -M i915 -c >modetest_M_i915.log
+ls /sys/class/drm/
+ls /sys/class/drm/ > ls_sys_class_drm2.log 
+journalctl -b | grep -i failed
+journalctl -b | grep -i failed > journalctl_hypr_failed_2.log 
+sudo modetest -M i915 -s VGA1@1:1920x1080@60
+sudo modetest -M i915 -c | grep conn
+sudo modetest -M i915 -s VGA-1@1:1920x1080@60
+sudo modetest -M i915 -p
+sudo modetest -M i915 -p >modetest_M_i915_p_list_crt.log
+sudo modetest -M i915 -p |more
+sudo modetest -M i915 -s VGA-1@49:1920x1080@60
+man modetest
+sudo modetest -M i915 -p |more
+sudo modetest -M i915 -s VGA-1@49:1920x1080@60.00
+sudo modetest -M i915 -s VGA-1@49:1920x1080
+sudo modetest -M i915 -s VGA-1@49:1920x1080> modetest_M_i915_s_test_VGA_ok.log
+cat modetest_M_i915_s_test_VGA_ok.log 
+sudo modetest -M i915 -s VGA-1@49:1920x1080> modetest_M_i915_s_test_VGA_ok.log
+cat modetest_M_i915_s_test_VGA_ok.log 
+hyprctl monitors
+ls
+journalctl -b | grep -i drm > journalctl_hypr_drm_3.log 
+journalctl -b | grep -i drm 
+ls /sys/class/drm/ > ls_sys_class_drm3.log 
+pacman -Qs mesa
+pacman -Qs mesa > pacman_Qs_mesa.log
+exit

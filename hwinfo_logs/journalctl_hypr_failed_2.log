@@ -1,0 +1,13 @@
+Nov 14 07:46:20 omarchy kernel: platform INT0800:00: failed to claim resource 0: [mem 0xff800000-0xffffffff]
+Nov 14 07:46:20 omarchy kernel: acpi INT0800:00: platform device creation failed: -16
+Nov 14 07:46:22 omarchy kernel: think-lmi 51F5230E-9677-46CD-A1CF-C0B23EE34DB7-0: probe with driver think-lmi failed with error -5
+Nov 14 07:46:23 omarchy containerd[696]: time="2025-11-14T07:46:23.749873325-03:00" level=info msg="skip loading plugin" error="failed to check mkfs.erofs availability: failed to run mkfs.erofs --help: exec: \"mkfs.erofs\": executable file not found in $PATH: skip plugin" id=io.containerd.differ.v1.erofs type=io.containerd.differ.v1
+Nov 14 07:46:23 omarchy containerd[696]: time="2025-11-14T07:46:23.755852717-03:00" level=error msg="failed to load cni during init, please check CRI plugin status before setting up network for pods" error="cni config load failed: no network config found in /etc/cni/net.d: cni plugin not initialized: failed to load cni config"
+Nov 14 07:46:24 omarchy dockerd[739]: time="2025-11-14T07:46:24.707715381-03:00" level=info msg="CDI directory does not exist, skipping: failed to monitor for changes: no such file or directory" dir=/etc/cdi
+Nov 14 07:46:24 omarchy dockerd[739]: time="2025-11-14T07:46:24.707735355-03:00" level=info msg="CDI directory does not exist, skipping: failed to monitor for changes: no such file or directory" dir=/var/run/cdi
+Nov 14 07:46:27 omarchy dbus-broker-launch[599]: Activation request for 'org.freedesktop.home1' failed: The systemd unit 'dbus-org.freedesktop.home1.service' could not be found.
+Nov 14 07:46:30 omarchy systemd[989]: wayland-wm@hyprland.desktop.service: Failed with result 'core-dump'.
+Nov 14 07:46:30 omarchy systemd[989]: Failed to start Main service for Hyprland, An intelligent dynamic tiling Wayland compositor.
+Nov 14 07:46:30 omarchy systemd[989]: Dependency failed for Session of hyprland.desktop Wayland compositor.
+Nov 14 07:46:30 omarchy systemd[989]: wayland-session@hyprland.desktop.target: Job wayland-session@hyprland.desktop.target/start failed with result 'dependency'.
+Nov 14 07:46:30 omarchy systemd[989]: wayland-session-waitenv.service: Failed with result 'signal'.

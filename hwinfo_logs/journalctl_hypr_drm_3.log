@@ -1,0 +1,10 @@
+Nov 14 07:46:20 omarchy kernel: ACPI: bus type drm_connector registered
+Nov 14 07:46:20 omarchy kernel: simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+Nov 14 07:46:20 omarchy kernel: [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+Nov 14 07:46:20 omarchy kernel: simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+Nov 14 07:46:20 omarchy kernel: i915 0000:00:02.0: [drm] Found g45 (device ID 2e12) integrated display version 4.00 stepping N/A
+Nov 14 07:46:20 omarchy kernel: i915 0000:00:02.0: [drm] Registered 2 planes with drm panic
+Nov 14 07:46:20 omarchy kernel: [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1
+Nov 14 07:46:20 omarchy kernel: fbcon: i915drmfb (fb0) is primary device
+Nov 14 07:46:20 omarchy kernel: i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+Nov 14 07:46:20 omarchy systemd[1]: Load Kernel Module drm was skipped because of an unmet condition check (ConditionKernelModuleLoaded=!drm).

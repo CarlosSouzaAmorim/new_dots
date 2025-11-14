@@ -1,0 +1,4 @@
+local/glu 9.0.3-2
+    Mesa OpenGL utility library
+local/mesa 1:25.2.7-1
+    Open-source OpenGL drivers
