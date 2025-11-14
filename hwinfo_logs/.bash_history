@@ -505,3 +505,7 @@ exit
 ./dot_logs.sh 9
 cp /boot/limine.conf ~/_projects/new_dots/hwinfo_logs/
 exit
+./dot_logs.sh 10
+ls
+sudo nano /boot/limine.conf
+exit

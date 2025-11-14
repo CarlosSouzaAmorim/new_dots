@@ -1,0 +1,12 @@
+[    0.000000] Command line: simpledrm.modeset=0 cryptdevice=PARTUUID=265cc117-02:root root=/dev/mapper/root zswap.enabled=0 rootflags=subvol=@ rw rootfstype=btrfs
+[    0.000000] Kernel command line: simpledrm.modeset=0 cryptdevice=PARTUUID=265cc117-02:root root=/dev/mapper/root zswap.enabled=0 rootflags=subvol=@ rw rootfstype=btrfs
+[    0.321123] ACPI: bus type drm_connector registered
+[    0.413071] simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+[    0.413073] [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+[    0.417311] simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+[    2.138038] i915 0000:00:02.0: [drm] Found g45 (device ID 2e12) integrated display version 4.00 stepping N/A
+[    2.178149] i915 0000:00:02.0: [drm] Registered 2 planes with drm panic
+[    2.178153] [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1
+[    2.233499] fbcon: i915drmfb (fb0) is primary device
+[    2.330614] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[   15.383217] systemd[1]: Load Kernel Module drm was skipped because of an unmet condition check (ConditionKernelModuleLoaded=!drm).
