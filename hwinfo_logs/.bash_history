@@ -502,3 +502,6 @@ ls /sys/class/drm/ > ls_sys_class_drm3.log
 pacman -Qs mesa
 pacman -Qs mesa > pacman_Qs_mesa.log
 exit
+./dot_logs.sh 9
+cp /boot/limine.conf ~/_projects/new_dots/hwinfo_logs/
+exit
