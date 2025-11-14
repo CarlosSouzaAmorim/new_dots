@@ -265,3 +265,6 @@ git add .
 git commit -m "Second try logs"
 git push origin main
 exit
+cd ~/_projects/new_dots/hwinfo_logs/
+cp ~/.bash_history .
+exit

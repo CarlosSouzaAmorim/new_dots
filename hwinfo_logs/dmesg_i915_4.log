@@ -1,0 +1,9 @@
+[    0.000000] Command line: i915.modeset=1 i915.force_probe=* video=SVIDEO-1:d cryptdevice=PARTUUID=265cc117-02:root root=/dev/mapper/root zswap.enabled=0 rootflags=subvol=@ rw rootfstype=btrfs
+[    0.123212] Kernel command line: i915.modeset=1 i915.force_probe=* video=SVIDEO-1:d cryptdevice=PARTUUID=265cc117-02:root root=/dev/mapper/root zswap.enabled=0 rootflags=subvol=@ rw rootfstype=btrfs
+[    2.491001] i915.modeset=1 is deprecated. Please remove it and the 'nomodeset' kernel parameter instead.
+[    2.491569] i915 0000:00:02.0: [drm] Found g45 (device ID 2e12) integrated display version 4.00 stepping N/A
+[    2.504130] i915 0000:00:02.0: vgaarb: deactivate vga console
+[    2.521647] i915 0000:00:02.0: [drm] Registered 2 planes with drm panic
+[    2.521651] [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1
+[    2.657234] fbcon: i915drmfb (fb0) is primary device
+[    2.841296] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
